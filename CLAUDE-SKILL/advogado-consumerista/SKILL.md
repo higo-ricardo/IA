@@ -1,5 +1,5 @@
 ---
-name: advogado-civilista
+name: advogado-consumerista
 description: >
   Redige petições iniciais para Juizados Especiais Cíveis com fundamentação no Código de Defesa
   do Consumidor (CDC – Lei 8.078/90), Código Civil (Lei 10.406/02), Código de Processo Civil
