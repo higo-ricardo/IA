@@ -1,6 +1,6 @@
 # 🤖 Coleção de Skills para Claude
 
-> Skills e ferramentas de IA prontas para uso no Claude.ai, abrangendo áreas jurídica, financeira e educacional.
+> Skills e ferramentas de IA prontas para uso no Claude.ai, abrangendo áreas jurídica, financeira, educacional e desenvolvimento de software.
 
 [![Claude Skill](https://img.shields.io/badge/Claude-Skills-orange?logo=anthropic)](https://claude.ai)
 [![Idioma](https://img.shields.io/badge/idioma-Português-green)](.)
@@ -59,6 +59,26 @@ Este repositório reúne **skills para o Claude (claude.ai)** — pacotes de ins
 
 ---
 
+### 💻 [engenheiro-de-software-senior](engenheiro-de-software-senior/)
+> Agente de Engenharia de Software de nível sênior, com execução controlada, validação interna e comportamento determinístico.
+
+**Funcionalidades:**
+- Classificação automática de solicitações (CLARA / AMBÍGUA / INCOMPLETA / PERIGOSA)
+- Modos operacionais: CRIAÇÃO, MANUTENÇÃO, ANÁLISE, REFACTORING
+- Hierarquia de prioridades com pesos quantificáveis (Segurança > Código existente > Intenção do usuário)
+- Ciclos de ajuste com validação (máx. 3 ciclos)
+- Score de consistência (0-10) com fórmula matemática
+- Protocolos de composição e modularidade
+- Tratamento de erros específico (sintaxe, semântica, segurança)
+- Integração com ferramentas externas (Docker, Jest, Git)
+
+**Arquivos:**
+| Arquivo | Descrição |
+|---|---|
+| [`senior-software-engineer.md`](engenheiro-de-software-senior/senior-software-engineer.md) | Definição completa da skill |
+
+---
+
 ## Estrutura do repositório
 
 ```
@@ -78,6 +98,8 @@ IA/
 │   │   └── equity-analist-B3.zip
 │   └── simulador-prova/
 │       └── SKILL.md
+├── engenheiro-de-software-senior/
+│   └── senior-software-engineer.md
 ├── README.md              # Esta documentação
 └── .git/
 ```
@@ -116,7 +138,7 @@ Agradecemos o interesse em contribuir! Abaixo estão as diretrizes para ajudar a
 
 Use a aba **Issues** do GitHub. Ao abrir uma issue, inclua:
 
-1. **Qual skill afetada** — advogado-consumerista, analista-de-acoes-B3 ou simulador-prova
+1. **Qual skill afetada** — advogado-consumerista, analista-de-acoes-B3, simulador-prova ou engenheiro-de-software-senior
 2. **Descrição do comportamento esperado**
 3. **Descrição do comportamento atual**
 4. **Prompt utilizado** (se aplicável)
@@ -195,6 +217,34 @@ Use o formato [Conventional Commits](https://www.conventionalcommits.org/):
 | advogado-consumerista | ✅ Ativa | Minutas, fundamentação, correções |
 | analista-de-acoes-B3 | ✅ Ativa | Análises, indicadores, correções |
 | simulador-prova | ✅ Ativa | Modelos de prova, cenários, correções |
+| engenheiro-de-software-senior | ✅ Ativa | Protocolos, validações, integração de ferramentas |
+
+---
+
+## Métrica de Consumo de Tokens
+
+O consumo de tokens varia conforme a complexidade da tarefa e a skill utilizada. Abaixo está uma estimativa baseada em uso típico:
+
+| Skill | Tokens por interação (entrada + saída) | Ciclos típicos | Total estimado por tarefa |
+|---|---|---|---|
+| advogado-consumerista | 4.000 – 12.000 | 1 – 3 | 4.000 – 36.000 |
+| analista-de-acoes-B3 | 3.000 – 8.000 | 1 – 2 | 3.000 – 16.000 |
+| simulador-prova | 2.000 – 6.000 | 1 – 3 | 2.000 – 18.000 |
+| engenheiro-de-software-senior | 6.000 – 20.000 | 2 – 5 | 12.000 – 100.000 |
+
+> **Nota:** Os valores são aproximados e dependem do contexto da conversa, tamanho do código base e complexidade da solicitação. Tarefas que exig múltiplos ciclos de correção ou análise de grandes codebases podem ultrapassar os limites superiores.
+
+### Fórmula de estimativa
+
+```
+Total de tokens = tokens_entrada × ciclos + tokens_saída × ciclos + overhead_classificação
+```
+
+Onde:
+- `tokens_entrada` = prompt do usuário + contexto do código
+- `tokens_saída` = resposta gerada + relatório estruturado
+- `ciclos` = número de iterações PLANEJAR / EXECUTAR / VALIDAR
+- `overhead_classificação` = ~500 tokens (análise de risco + hierarquia de prioridades)
 
 ---
 
