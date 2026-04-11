@@ -1,18 +1,18 @@
 ---
 name: advogado-consumerista
 description: |
-  Redige, estrutura e revisa peças processuais civis com linguagem técnico-jurídica precisa,
+  Redige, estrutura e revisa peças processuais civis com linguagem jurídica precisa,
   argumentação sólida e fundamentos normativos e jurisprudenciais atualizados. Especializado em:
   Juizado Especial Cível (JEC / Lei 9.099/95), Direito do Consumidor (CDC), responsabilidade
-  civil, contratos bancários e relações de consumo digital.
+  civil, contratos bancários e relações de consumo.
   
   Use esta skill SEMPRE que o usuário pedir para:
   - redigir ou revisar petição inicial, contestação, recurso inominado, contrarrazões ao recurso
-    inominado, embargos de declaração, agravo interno ou qualquer peça processual cível/consumerista
-  - elaborar argumentos jurídicos para casos de consumidor, banco, e-commerce, cartão de crédito,
-    cobrança indevida, produto não entregue ou cancelamento de compra
+    inominado, embargos de declaração, agravo interno.
+  - elaborar argumentos jurídicos para casos de consumidor, banco, empréstimo, cartão de crédito,
+    cobrança indevida, negativção, produto não entregue ou cancelamento de compra
   - analisar a viabilidade de teses defensivas ou ofensivas em ações consumeristas
-  - estruturar danos morais in re ipsa, responsabilidade solidária, boa-fé objetiva e
+  - estruturar danos morais in re ipsa, responsabilidade objetiva, boa-fé objetiva e
     vulnerabilidade do consumidor
   - adaptar precedentes do STJ, STF ou Turmas Recursais a casos concretos
   - formatar qualquer peça processual com endereçamento, qualificação, histórico, direito e pedidos
@@ -57,11 +57,11 @@ Com base nos triggers e no contexto, classifique a peça solicitada:
 
 | Código | Tipo de Peça | Triggers Principais | Arquivo de Apoio |
 |--------|-------------|---------------------|-----------------|
-| `PI` | Petição Inicial | "quero ajuizar", "propor ação", "ação de indenização", "entrar na justiça", "produto não entregue", "serviço não prestado", "cobrança indevida" | `references/peticao_inicial.md` |
-| `RI` | Recurso Inominado | "recorrer da sentença", "não concordo com a decisão", "apelar no juizado", "recurso da sentença", "sentença desfavorável" | `references/recurso_inominado.md` |
-| `CR` | Contrarrazões ao Recurso Inominado | "responder ao recurso", "contrarrazões", "recorrido", "empresa recorreu", "banco recorreu", "me pediram contrarrazões" | `references/contrarrazoes.md` |
-| `ED` | Embargos de Declaração | "contradição na decisão", "omissão na sentença", "obscuridade", "erro material", "embargos", "sentença ambigua" | `references/embargos_declaracao.md` |
-| `AI` | Agravo Interno / Regimental | "decisão monocrática", "agravo", "impugnar decisão do relator", "turma recursal negou seguimento" | `references/agravo_interno.md` |
+| `PI` | Petição Inicial | "quero ajuizar", "propor ação", "ação de indenização", "entrar na justiça", "produto não entregue", "serviço não prestado", "cobrança indevida" | 
+| `RI` | Recurso Inominado | "recorrer da sentença", "não concordo com a decisão", "apelar no juizado", "recurso da sentença", "sentença desfavorável" | 
+| `CR` | Contrarrazões ao Recurso Inominado | "responder ao recurso", "contrarrazões", "recorrido", "empresa recorreu", "banco recorreu", "me pediram contrarrazões" | 
+| `ED` | Embargos de Declaração | "contradição na decisão", "omissão na sentença", "obscuridade", "erro material", "embargos", "sentença ambigua" |
+| `AI` | Agravo Interno / Regimental | "decisão monocrática", "agravo", "impugnar decisão do relator", "turma recursal negou seguimento" | 
 
 > **Regra de desempate:** se o usuário descrever os fatos sem nomear a peça, infira pelo contexto:
 > - Fato ainda sem processo → `PI`
@@ -69,6 +69,12 @@ Com base nos triggers e no contexto, classifique a peça solicitada:
 > - Sentença proferida + adversário recorreu + usuário quer responder → `CR`
 > - Decisão obscura/omissa + usuário quer esclarecer → `ED`
 > - Decisão monocrática de turma recursal + usuário quer reformar → `AI`
+
+Cada arquivo contém:
+- Estrutura completa da peça com seções obrigatórias
+- Parágrafos-modelo com variáveis `[CAMPO]`
+- Teses jurídicas e jurisprudência aplicáveis
+- Checklist de validação específico
 ---
 
 ### 2.2 Dados obrigatórios por tipo de peça
@@ -174,8 +180,7 @@ O arquivo de apoio contém:
 
 ## Fase 4 — Modo Educativo: CDC em 80/20 (Pareto)
 
-Quando o usuário solicitar orientação sobre direitos do consumidor sem propor ação judicial,
-gere conteúdo estruturado com os tópicos obrigatórios abaixo:
+Quando o usuário solicitar orientação sobre direitos do consumidor sem propor ação judicial, gere conteúdo estruturado com os tópicos obrigatórios abaixo:
 
 ### Tópicos Essenciais
 
@@ -226,32 +231,3 @@ gere conteúdo estruturado com os tópicos obrigatórios abaixo:
 - Armazenar ou reutilizar dados pessoais de pessoa física além do escopo da peça em elaboração
 
 ---
-
-## Referências Legais Consolidadas
-
-| Artigo | Lei | Conteúdo |
-|--------|-----|----------|
-| Art. 2º | CDC 8.078/90 | Definição de consumidor |
-| Art. 3º | CDC 8.078/90 | Definição de fornecedor |
-| Art. 4º, I | CDC 8.078/90 | Vulnerabilidade do consumidor |
-| Art. 4º, III | CDC 8.078/90 | Boa-fé e equilíbrio nas relações |
-| Art. 6º, VIII | CDC 8.078/90 | Inversão do ônus da prova |
-| Art. 7º, §único | CDC 8.078/90 | Responsabilidade solidária da cadeia |
-| Art. 14 | CDC 8.078/90 | Responsabilidade objetiva do fornecedor de serviços |
-| Art. 14, §3º | CDC 8.078/90 | Excludentes de responsabilidade |
-| Art. 18, §1º, II | CDC 8.078/90 | Restituição do valor pago atualizado |
-| Art. 26 | CDC 8.078/90 | Prazo de decadência (30/90 dias) |
-| Art. 27 | CDC 8.078/90 | Prazo prescricional (5 anos) |
-| Art. 35, III | CDC 8.078/90 | Rescisão contratual e restituição |
-| Art. 39 | CDC 8.078/90 | Práticas abusivas proibidas |
-| Art. 51 | CDC 8.078/90 | Cláusulas abusivas nulas de pleno direito |
-| Art. 5º, X | CF 1988 | Inviolabilidade da honra e imagem |
-| Art. 1º, III | CF 1988 | Dignidade da pessoa humana |
-| Art. 98 | CPC 13.105/15 | Gratuidade de justiça |
-| Art. 373, §1º | CPC 13.105/15 | Distribuição dinâmica do ônus da prova |
-| Art. 406 | CC 10.406/02 | Juros legais de mora (1% ao mês) |
-| Art. 3º | Lei 9.099/95 | Competência do Juizado (até 40 SM) |
-| Art. 41 | Lei 9.099/95 | Recurso inominado (prazo: 10 dias) |
-| Art. 42 | Lei 9.099/95 | Contrarrazões (prazo: 10 dias) |
-| Art. 48 | Lei 9.099/95 | Embargos de declaração (prazo: 5 dias) |
-| Art. 55 | Lei 9.099/95 | Honorários em grau recursal (10%–20%) |
