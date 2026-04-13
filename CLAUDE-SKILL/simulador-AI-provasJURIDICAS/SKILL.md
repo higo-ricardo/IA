@@ -3,11 +3,9 @@ name: simulador-prova
 description: >
   Agente interativo de simulação de provas e questões de concurso. Use esta skill sempre que
   o usuário quiser: simular uma prova, treinar questões de uma disciplina, testar conhecimento
-  com gabarito, praticar para concurso público, OAB, vestibular, ENEM ou qualquer exame.
+  com gabarito, praticar para concurso da area juridica.
   Ative sempre que o usuário mencionar: simulado, prova, questões, gabarito, treinar matéria,
   testar conhecimento, concurso, quiz, exercícios, múltipla escolha, certo ou errado.
-  Quando o usuário não fornecer material externo, usar conhecimento consolidado do modelo
-  e inferência contextual na proporção 1:1 como base das questões.
 ---
 
 # Skill: Simulador de Prova — Agente Interativo
