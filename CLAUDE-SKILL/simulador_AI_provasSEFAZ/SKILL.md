@@ -142,7 +142,6 @@ Deseja algo mais com essas questões?
   [A] Converter todas para Certo/Errado (CEBRASPE)
   [B] Exportar como banco de questões estruturado
   [C] Gerar mais questões do mesmo tópico
-  [D] Nada por enquanto
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 > Se o usuário escolher [A], ativar o **SUBAGENTE 2** sobre as questões recém-geradas.
@@ -232,8 +231,8 @@ Deseja algo mais?
 
 | Banca | Padrão de enunciado |
 |-------|---------------------|
-| **FGV** (padrão) | Situação-problema com empresa/auditor + evento + pergunta no final |
-| **FCC** | Direto e conceitual: "De acordo com [norma], assinale..." |
+| **FGV** (padrão) | Situação-problema com empresa + evento + pergunta no final |
+| **FCC** | Direto e conceitual: "De acordo com [norma/jusriprudencia], assinale..." |
 | **ESAF** | Proposições I, II, III com "Estão corretas apenas:" |
 
 > Se o usuário não especificar banca → aplicar **FGV por padrão** e informar.
