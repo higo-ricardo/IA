@@ -1,0 +1,1099 @@
+{
+  "metadata": {
+    "total_provas": 11,
+    "data_analise": "2026-04-13"
+  },
+  "consolidado": {
+    "Auditoria": {
+      "NBC TA 530 - Amostragem": 6,
+      "NBC TA 500 - Evidência de Auditoria": 21,
+      "Risco de Auditoria": 2,
+      "NBC TA 705 - Modificações no Relatório": 3,
+      "Auditoria - Outros": 10,
+      "Auditoria do Passivo e PL": 1,
+      "Auditoria Interna": 3,
+      "Procedimentos Analíticos": 5,
+      "Auditoria do Ativo": 3,
+      "Relatório / Parecer de Auditoria": 3,
+      "Controles Internos": 6,
+      "Eventos Subsequentes": 2,
+      "Planejamento de Auditoria": 1,
+      "Contabilidade Criativa / Fraude": 1,
+      "Estatísticas de Finanças Públicas": 1,
+      "Auditoria de Grupo/Consolidado": 1
+    },
+    "Direito Empresarial": {
+      "Acionista e S/A": 3,
+      "Sociedades Empresárias": 43,
+      "Direito Empresarial - Outros": 3,
+      "EIRELI / EI": 1,
+      "Títulos de Crédito": 7,
+      "Estabelecimento Empresarial": 2,
+      "Falência e Recuperação Judicial": 1,
+      "Reorganização Societária": 5
+    },
+    "Contabilidade Geral": {
+      "Balanço Patrimonial": 37,
+      "Ativo Imobilizado": 5,
+      "Patrimônio Líquido e Destinação de Lucro": 8,
+      "DRE e Apuração de Lucro": 21,
+      "Escrituração e Balancete": 6,
+      "Contabilidade - Geral/Outros": 11,
+      "Ativo Intangível e Impairment": 10,
+      "Provisões": 5,
+      "Demonstração dos Fluxos de Caixa": 5,
+      "DVA": 1,
+      "Debêntures / Instrumentos Financeiros": 3,
+      "Valor Presente / Ajuste a Valor Presente": 2,
+      "Estoques": 3,
+      "Índices Financeiros": 2,
+      "Depreciação": 8,
+      "Equivalência Patrimonial": 11,
+      "Combinação de Negócios / Goodwill": 1,
+      "Ativos Biológicos": 1,
+      "ICMS na Contabilidade": 3
+    },
+    "Direito Administrativo": {
+      "Direito Administrativo - Outros": 6,
+      "Servidor Público": 9,
+      "Responsabilidade Civil do Estado": 7,
+      "Licitações": 11,
+      "Poder de Polícia": 4,
+      "Delegação e Competência": 2,
+      "Improbidade Administrativa": 7,
+      "LRF e Sanções": 2,
+      "Administração Direta e Indireta": 9,
+      "Intervenção na Propriedade": 2,
+      "Bens Públicos": 2,
+      "Contratos Administrativos": 2,
+      "LAIA / Transparência": 1,
+      "Processo Administrativo Disciplinar": 1
+    },
+    "Contabilidade de Custos": {
+      "Classificação de Custos": 13,
+      "Grau de Alavancagem Operacional": 2,
+      "Rateio de Custos Indiretos": 2,
+      "Custo Padrão vs Estimado": 2,
+      "Ponto de Equilíbrio": 3,
+      "Margem de Contribuição e Segurança": 4,
+      "Custeio por Absorção vs Variável": 4,
+      "Taxa de Aplicação de Custos Indiretos": 1,
+      "ABC - Activity Based Costing": 2,
+      "Coprodutos e Subprodutos": 2
+    },
+    "Estatística": {
+      "Estatística Descritiva (Média, Mediana, Moda, Variância)": 4,
+      "Estatística - Outros": 2,
+      "Regressão e Correlação": 7,
+      "Teste de Hipóteses": 3,
+      "Intervalo de Confiança": 3,
+      "Distribuição de Poisson": 2,
+      "Teste de Independência / Tabela de Contingência": 1,
+      "Distribuição de Frequências": 2,
+      "Distribuição Binomial": 2,
+      "Distribuição Normal / Z": 7
+    },
+    "Não Classificado": {
+      "Não Classificado": 172
+    },
+    "Direito Tributário": {
+      "Simples Nacional / MEI": 34,
+      "ICMS - Base de Cálculo": 6,
+      "Obrigação e Crédito Tributário": 24,
+      "Contribuições": 13,
+      "ICMS - Fato Gerador e Incidência": 28,
+      "Direito Tributário - Geral": 27,
+      "Impostos em Espécie (não ICMS)": 5,
+      "Legislação Tributária / CTN": 12,
+      "Lançamento Tributário": 5,
+      "Responsabilidade Tributária": 2,
+      "Administração Tributária / Fiscalização": 29,
+      "ICMS - Benefícios Fiscais / Convênio CONFAZ": 6,
+      "Limitações ao Poder de Tributar": 7,
+      "Taxas": 2,
+      "IBS / Reforma Tributária": 2,
+      "Repartição de Receitas": 1
+    },
+    "Direito Civil": {
+      "Propriedade e Posse": 15,
+      "Sucessão": 12,
+      "Negócio Jurídico": 6,
+      "Prescrição e Decadência": 6,
+      "Regime de Bens": 5,
+      "Obrigações": 7,
+      "CDC": 5,
+      "Responsabilidade Civil": 5,
+      "Desconsideração da Personalidade Jurídica": 2,
+      "LINDB": 2,
+      "Contratos em Espécie": 9,
+      "Direito Civil - Outros": 3
+    },
+    "Matemática Financeira": {
+      "VPL / TIR": 14,
+      "Matemática Financeira - Outros": 2,
+      "Taxas de Juros (Nominal, Real, Fisher)": 5,
+      "Sistema de Amortização (SAC, Price)": 4,
+      "Juros Simples e Compostos": 7,
+      "Valor Presente e Futuro": 3,
+      "Desconto (Comercial, Racional, Simples, Composto)": 1
+    },
+    "Língua Portuguesa": {
+      "Gramática (Concordância, Regência, Pontuação)": 4,
+      "Estrutura Argumentativa": 7,
+      "Interpretação de Texto": 2,
+      "Discurso Direto e Indireto": 2,
+      "Reescrita de Frases": 3,
+      "Linguagem Figurada / Metáfora": 1,
+      "Coesão e Coerência": 1,
+      "Fraseologia / Expressões Idiomáticas": 2
+    },
+    "Direito Constitucional": {
+      "Direito Constitucional - Outros": 20,
+      "Normas Constitucionais (Eficácia)": 4,
+      "Organização Político-Administrativa": 9,
+      "Organização dos Poderes": 18,
+      "Controle de Constitucionalidade": 4,
+      "Remédios Constitucionais": 3,
+      "Elegibilidade e Condições": 2,
+      "Regime Previdenciário": 1,
+      "Competência Legislativa": 5,
+      "Direitos e Garantias Fundamentais": 1,
+      "Partidos Políticos": 1,
+      "Processo Legislativo": 1
+    },
+    "Direito Penal": {
+      "Descaminho e Contrabando": 1,
+      "Falsidade Ideológica": 4,
+      "Crimes contra Finanças Públicas": 6,
+      "Crimes contra Ordem Tributária": 9,
+      "Princípio da Insignificância": 1,
+      "Sonegação Previdenciária": 1,
+      "Crimes Funcionais": 3,
+      "Direito Penal - Outros": 2,
+      "Inserção de Dados Falsos": 1,
+      "Crimes contra Relações de Consumo": 1
+    },
+    "Economia / Finanças": {
+      "Demanda por Moeda / Taxa de Juros": 2,
+      "Equilíbrio de Mercado": 2
+    },
+    "Gerenciamento de Projetos / BPM": {
+      "PMBOK": 5,
+      "BPM - Modelagem de Processos": 4
+    },
+    "Tecnologia da Informação / Análise de Dados": {
+      "Segurança da Informação / Criptografia": 5,
+      "EFD ICMS/IPI / NF-e / SPED": 44,
+      "Dados Abertos": 2,
+      "Power BI": 2,
+      "Banco de Dados Relacional": 16,
+      "Data Warehouse / OLAP": 2,
+      "Mineração de Dados": 6,
+      "Machine Learning": 3,
+      "Balanced Scorecard": 1,
+      "TI - Outros": 3,
+      "Integração de Dados / ETL": 1,
+      "Big Data": 1,
+      "SQL": 4,
+      "LGPD": 1
+    },
+    "Raciocínio Lógico": {
+      "Validade de Argumentos": 1,
+      "Raciocínio Lógico - Outros": 1,
+      "Problemas de Tempo e Horas": 1,
+      "Desigualdades e Intervalos": 1
+    },
+    "Contabilidade Avançada": {
+      "Reorganização Societária": 1,
+      "Contabilidade Avançada - Outros": 2,
+      "Instrumentos Financeiros / Valor Justo": 1,
+      "Ativo Não Circulante Mantido para Venda": 1,
+      "Combinação de Negócios e Goodwill": 1,
+      "Subvenção Governamental": 1,
+      "Mudança de Política Contábil e Estimativa": 1
+    },
+    "Administração Financeira e Orçamentária": {
+      "Orçamento Público": 6,
+      "AFO - Outros": 3,
+      "Receita Pública": 3,
+      "Execução Orçamentária": 2
+    },
+    "Conhecimentos Regionais": {
+      "Geografia / Cultura do Estado": 3
+    }
+  },
+  "por_arquivo": {
+    "auditor_fiscal_da_receita_estadual_auditoria_e_fiscalizacao_tarde.md": {
+      "total_questoes": 56,
+      "disciplinas": {
+        "Auditoria": {
+          "NBC TA 530 - Amostragem": 3,
+          "NBC TA 500 - Evidência de Auditoria": 2,
+          "Risco de Auditoria": 1,
+          "NBC TA 705 - Modificações no Relatório": 1,
+          "Auditoria - Outros": 3,
+          "Auditoria do Passivo e PL": 1
+        },
+        "Direito Empresarial": {
+          "Acionista e S/A": 1,
+          "Sociedades Empresárias": 11
+        },
+        "Contabilidade Geral": {
+          "Balanço Patrimonial": 4,
+          "Ativo Imobilizado": 1,
+          "Patrimônio Líquido e Destinação de Lucro": 1,
+          "DRE e Apuração de Lucro": 1
+        },
+        "Direito Administrativo": {
+          "Direito Administrativo - Outros": 1,
+          "Servidor Público": 1
+        },
+        "Contabilidade de Custos": {
+          "Classificação de Custos": 1,
+          "Grau de Alavancagem Operacional": 1
+        },
+        "Estatística": {
+          "Estatística Descritiva (Média, Mediana, Moda, Variância)": 1,
+          "Estatística - Outros": 1,
+          "Regressão e Correlação": 1,
+          "Teste de Hipóteses": 1
+        },
+        "Não Classificado": {
+          "Não Classificado": 6
+        },
+        "Direito Tributário": {
+          "Simples Nacional / MEI": 2,
+          "ICMS - Base de Cálculo": 1,
+          "Obrigação e Crédito Tributário": 2,
+          "Contribuições": 1,
+          "ICMS - Fato Gerador e Incidência": 4
+        },
+        "Direito Civil": {
+          "Propriedade e Posse": 1
+        },
+        "Matemática Financeira": {
+          "VPL / TIR": 1
+        }
+      }
+    },
+    "auditor_fiscal_da_receita_estadual.md": {
+      "total_questoes": 119,
+      "disciplinas": {
+        "Não Classificado": {
+          "Não Classificado": 25
+        },
+        "Direito Tributário": {
+          "Simples Nacional / MEI": 4,
+          "Direito Tributário - Geral": 3,
+          "Contribuições": 1,
+          "Impostos em Espécie (não ICMS)": 1,
+          "Legislação Tributária / CTN": 1,
+          "Obrigação e Crédito Tributário": 4,
+          "Lançamento Tributário": 2,
+          "Responsabilidade Tributária": 1,
+          "Administração Tributária / Fiscalização": 2,
+          "ICMS - Fato Gerador e Incidência": 3,
+          "ICMS - Benefícios Fiscais / Convênio CONFAZ": 2
+        },
+        "Língua Portuguesa": {
+          "Gramática (Concordância, Regência, Pontuação)": 1,
+          "Estrutura Argumentativa": 1
+        },
+        "Direito Administrativo": {
+          "Responsabilidade Civil do Estado": 4,
+          "Licitações": 3,
+          "Poder de Polícia": 1,
+          "Servidor Público": 2
+        },
+        "Direito Constitucional": {
+          "Direito Constitucional - Outros": 3,
+          "Normas Constitucionais (Eficácia)": 1,
+          "Organização Político-Administrativa": 4,
+          "Organização dos Poderes": 6,
+          "Controle de Constitucionalidade": 1
+        },
+        "Direito Empresarial": {
+          "Sociedades Empresárias": 4,
+          "Acionista e S/A": 1,
+          "Direito Empresarial - Outros": 1
+        },
+        "Direito Civil": {
+          "Sucessão": 2,
+          "Negócio Jurídico": 1,
+          "Prescrição e Decadência": 1,
+          "Regime de Bens": 1,
+          "Obrigações": 2,
+          "CDC": 1
+        },
+        "Direito Penal": {
+          "Descaminho e Contrabando": 1,
+          "Falsidade Ideológica": 2,
+          "Crimes contra Finanças Públicas": 1
+        },
+        "Contabilidade Geral": {
+          "Escrituração e Balancete": 1,
+          "Balanço Patrimonial": 1,
+          "Contabilidade - Geral/Outros": 2,
+          "DRE e Apuração de Lucro": 3,
+          "Patrimônio Líquido e Destinação de Lucro": 1,
+          "Ativo Intangível e Impairment": 1
+        },
+        "Contabilidade de Custos": {
+          "Classificação de Custos": 3,
+          "Rateio de Custos Indiretos": 2
+        },
+        "Economia / Finanças": {
+          "Demanda por Moeda / Taxa de Juros": 2,
+          "Equilíbrio de Mercado": 2
+        },
+        "Gerenciamento de Projetos / BPM": {
+          "PMBOK": 1,
+          "BPM - Modelagem de Processos": 2
+        },
+        "Tecnologia da Informação / Análise de Dados": {
+          "Segurança da Informação / Criptografia": 1,
+          "EFD ICMS/IPI / NF-e / SPED": 2
+        },
+        "Raciocínio Lógico": {
+          "Validade de Argumentos": 1
+        }
+      }
+    },
+    "auditor_fiscal_de_tributos_estaduais_manhacns001_tipo_1.md": {
+      "total_questoes": 71,
+      "disciplinas": {
+        "Língua Portuguesa": {
+          "Interpretação de Texto": 1,
+          "Discurso Direto e Indireto": 1,
+          "Estrutura Argumentativa": 2
+        },
+        "Não Classificado": {
+          "Não Classificado": 9
+        },
+        "Contabilidade Geral": {
+          "Ativo Intangível e Impairment": 1
+        },
+        "Tecnologia da Informação / Análise de Dados": {
+          "EFD ICMS/IPI / NF-e / SPED": 4
+        },
+        "Direito Tributário": {
+          "Simples Nacional / MEI": 4,
+          "Obrigação e Crédito Tributário": 2,
+          "Administração Tributária / Fiscalização": 1
+        },
+        "Raciocínio Lógico": {
+          "Raciocínio Lógico - Outros": 1
+        },
+        "Matemática Financeira": {
+          "VPL / TIR": 3,
+          "Matemática Financeira - Outros": 1,
+          "Taxas de Juros (Nominal, Real, Fisher)": 2
+        },
+        "Estatística": {
+          "Estatística - Outros": 1,
+          "Intervalo de Confiança": 1,
+          "Distribuição de Poisson": 1,
+          "Teste de Independência / Tabela de Contingência": 1
+        },
+        "Direito Constitucional": {
+          "Direito Constitucional - Outros": 3,
+          "Normas Constitucionais (Eficácia)": 1,
+          "Remédios Constitucionais": 2,
+          "Elegibilidade e Condições": 1,
+          "Organização dos Poderes": 1,
+          "Regime Previdenciário": 1
+        },
+        "Direito Administrativo": {
+          "Delegação e Competência": 1,
+          "Improbidade Administrativa": 2,
+          "LRF e Sanções": 1,
+          "Licitações": 2,
+          "Servidor Público": 1,
+          "Direito Administrativo - Outros": 1,
+          "Administração Direta e Indireta": 1
+        },
+        "Direito Civil": {
+          "Responsabilidade Civil": 3,
+          "Obrigações": 1,
+          "Desconsideração da Personalidade Jurídica": 1,
+          "LINDB": 1,
+          "Contratos em Espécie": 1
+        },
+        "Direito Empresarial": {
+          "Sociedades Empresárias": 3,
+          "Acionista e S/A": 1,
+          "EIRELI / EI": 1
+        },
+        "Direito Penal": {
+          "Crimes contra Ordem Tributária": 2,
+          "Princípio da Insignificância": 1,
+          "Sonegação Previdenciária": 1
+        },
+        "Contabilidade Avançada": {
+          "Reorganização Societária": 1
+        }
+      }
+    },
+    "auditor_fiscal_de_tributos_estaduais_tarde.md": {
+      "total_questoes": 74,
+      "disciplinas": {
+        "Contabilidade Geral": {
+          "Contabilidade - Geral/Outros": 2,
+          "DRE e Apuração de Lucro": 2,
+          "Provisões": 1,
+          "Demonstração dos Fluxos de Caixa": 1,
+          "DVA": 1,
+          "Debêntures / Instrumentos Financeiros": 1,
+          "Patrimônio Líquido e Destinação de Lucro": 1,
+          "Balanço Patrimonial": 3,
+          "Ativo Intangível e Impairment": 1,
+          "Valor Presente / Ajuste a Valor Presente": 1,
+          "Ativo Imobilizado": 2
+        },
+        "Direito Empresarial": {
+          "Sociedades Empresárias": 10,
+          "Títulos de Crédito": 1
+        },
+        "Não Classificado": {
+          "Não Classificado": 8
+        },
+        "Contabilidade Avançada": {
+          "Contabilidade Avançada - Outros": 1,
+          "Instrumentos Financeiros / Valor Justo": 1
+        },
+        "Contabilidade de Custos": {
+          "Custo Padrão vs Estimado": 1,
+          "Classificação de Custos": 1,
+          "Ponto de Equilíbrio": 1,
+          "Grau de Alavancagem Operacional": 1,
+          "Margem de Contribuição e Segurança": 1,
+          "Custeio por Absorção vs Variável": 1
+        },
+        "Tecnologia da Informação / Análise de Dados": {
+          "Dados Abertos": 1,
+          "Power BI": 2,
+          "Banco de Dados Relacional": 1,
+          "Data Warehouse / OLAP": 1,
+          "Mineração de Dados": 2,
+          "Machine Learning": 2,
+          "Balanced Scorecard": 1
+        },
+        "Auditoria": {
+          "NBC TA 500 - Evidência de Auditoria": 4,
+          "Auditoria Interna": 1,
+          "Procedimentos Analíticos": 1,
+          "Auditoria do Ativo": 1,
+          "Relatório / Parecer de Auditoria": 1
+        },
+        "Direito Tributário": {
+          "Obrigação e Crédito Tributário": 1,
+          "Simples Nacional / MEI": 2,
+          "Contribuições": 2,
+          "Legislação Tributária / CTN": 1,
+          "ICMS - Fato Gerador e Incidência": 1
+        },
+        "Direito Constitucional": {
+          "Organização Político-Administrativa": 1
+        },
+        "Direito Civil": {
+          "Sucessão": 1,
+          "Propriedade e Posse": 1,
+          "Prescrição e Decadência": 1
+        },
+        "Direito Administrativo": {
+          "Administração Direta e Indireta": 1
+        },
+        "Matemática Financeira": {
+          "VPL / TIR": 1
+        }
+      }
+    },
+    "auditor_fiscal_tributario_da_receita_municipal_gestao_tributaria_manha.md": {
+      "total_questoes": 74,
+      "disciplinas": {
+        "Não Classificado": {
+          "Não Classificado": 7
+        },
+        "Tecnologia da Informação / Análise de Dados": {
+          "EFD ICMS/IPI / NF-e / SPED": 2
+        },
+        "Matemática Financeira": {
+          "VPL / TIR": 1,
+          "Matemática Financeira - Outros": 1,
+          "Sistema de Amortização (SAC, Price)": 1,
+          "Juros Simples e Compostos": 1
+        },
+        "Direito Tributário": {
+          "Simples Nacional / MEI": 2,
+          "Direito Tributário - Geral": 4,
+          "Administração Tributária / Fiscalização": 2,
+          "Limitações ao Poder de Tributar": 2,
+          "ICMS - Fato Gerador e Incidência": 2,
+          "Impostos em Espécie (não ICMS)": 1,
+          "Obrigação e Crédito Tributário": 4,
+          "Contribuições": 1,
+          "ICMS - Benefícios Fiscais / Convênio CONFAZ": 1
+        },
+        "Administração Financeira e Orçamentária": {
+          "Orçamento Público": 1
+        },
+        "Estatística": {
+          "Distribuição de Frequências": 1,
+          "Estatística Descritiva (Média, Mediana, Moda, Variância)": 1,
+          "Distribuição Binomial": 1,
+          "Distribuição Normal / Z": 1
+        },
+        "Direito Constitucional": {
+          "Controle de Constitucionalidade": 1,
+          "Direito Constitucional - Outros": 2,
+          "Competência Legislativa": 1,
+          "Organização Político-Administrativa": 1,
+          "Direitos e Garantias Fundamentais": 1,
+          "Organização dos Poderes": 1
+        },
+        "Direito Administrativo": {
+          "Responsabilidade Civil do Estado": 1,
+          "Servidor Público": 2,
+          "Intervenção na Propriedade": 1,
+          "Administração Direta e Indireta": 1,
+          "Improbidade Administrativa": 1
+        },
+        "Auditoria": {
+          "Controles Internos": 1
+        },
+        "Direito Empresarial": {
+          "Sociedades Empresárias": 5,
+          "Estabelecimento Empresarial": 1
+        },
+        "Direito Civil": {
+          "Prescrição e Decadência": 1,
+          "Desconsideração da Personalidade Jurídica": 1,
+          "Responsabilidade Civil": 1,
+          "Negócio Jurídico": 1,
+          "Propriedade e Posse": 1,
+          "Regime de Bens": 1
+        },
+        "Direito Penal": {
+          "Crimes Funcionais": 1,
+          "Crimes contra Ordem Tributária": 1,
+          "Direito Penal - Outros": 1
+        },
+        "Contabilidade Geral": {
+          "DRE e Apuração de Lucro": 2,
+          "Patrimônio Líquido e Destinação de Lucro": 2,
+          "Demonstração dos Fluxos de Caixa": 1,
+          "Balanço Patrimonial": 2
+        },
+        "Contabilidade Avançada": {
+          "Ativo Não Circulante Mantido para Venda": 1
+        }
+      }
+    },
+    "auditor_fiscal.md": {
+      "total_questoes": 305,
+      "disciplinas": {
+        "Direito Tributário": {
+          "Simples Nacional / MEI": 9,
+          "Direito Tributário - Geral": 16,
+          "ICMS - Fato Gerador e Incidência": 9,
+          "Contribuições": 5,
+          "Legislação Tributária / CTN": 4,
+          "Administração Tributária / Fiscalização": 10,
+          "Obrigação e Crédito Tributário": 6,
+          "ICMS - Base de Cálculo": 1,
+          "Impostos em Espécie (não ICMS)": 1,
+          "Limitações ao Poder de Tributar": 1
+        },
+        "Não Classificado": {
+          "Não Classificado": 59
+        },
+        "Língua Portuguesa": {
+          "Estrutura Argumentativa": 4,
+          "Gramática (Concordância, Regência, Pontuação)": 2,
+          "Reescrita de Frases": 2,
+          "Linguagem Figurada / Metáfora": 1
+        },
+        "Tecnologia da Informação / Análise de Dados": {
+          "EFD ICMS/IPI / NF-e / SPED": 17,
+          "TI - Outros": 2,
+          "Banco de Dados Relacional": 3,
+          "Data Warehouse / OLAP": 1,
+          "Segurança da Informação / Criptografia": 2
+        },
+        "Matemática Financeira": {
+          "VPL / TIR": 3,
+          "Juros Simples e Compostos": 2,
+          "Sistema de Amortização (SAC, Price)": 1,
+          "Taxas de Juros (Nominal, Real, Fisher)": 1
+        },
+        "Administração Financeira e Orçamentária": {
+          "AFO - Outros": 1,
+          "Receita Pública": 1
+        },
+        "Direito Civil": {
+          "CDC": 2,
+          "Propriedade e Posse": 6,
+          "Direito Civil - Outros": 1,
+          "Prescrição e Decadência": 2,
+          "Contratos em Espécie": 4,
+          "Negócio Jurídico": 3,
+          "Sucessão": 4,
+          "Obrigações": 1
+        },
+        "Direito Empresarial": {
+          "Direito Empresarial - Outros": 1,
+          "Estabelecimento Empresarial": 1,
+          "Falência e Recuperação Judicial": 1,
+          "Sociedades Empresárias": 4,
+          "Títulos de Crédito": 1,
+          "Reorganização Societária": 1
+        },
+        "Direito Constitucional": {
+          "Organização Político-Administrativa": 2,
+          "Direito Constitucional - Outros": 6,
+          "Controle de Constitucionalidade": 1,
+          "Normas Constitucionais (Eficácia)": 1,
+          "Organização dos Poderes": 3,
+          "Competência Legislativa": 1
+        },
+        "Contabilidade Geral": {
+          "Escrituração e Balancete": 1,
+          "Contabilidade - Geral/Outros": 3,
+          "Patrimônio Líquido e Destinação de Lucro": 2,
+          "Estoques": 3,
+          "DRE e Apuração de Lucro": 2,
+          "Balanço Patrimonial": 3,
+          "Índices Financeiros": 1,
+          "Depreciação": 2,
+          "Equivalência Patrimonial": 2,
+          "Combinação de Negócios / Goodwill": 1,
+          "Ativo Imobilizado": 1,
+          "Ativo Intangível e Impairment": 2,
+          "Ativos Biológicos": 1,
+          "Provisões": 2,
+          "Demonstração dos Fluxos de Caixa": 1,
+          "Debêntures / Instrumentos Financeiros": 1,
+          "ICMS na Contabilidade": 1
+        },
+        "Direito Administrativo": {
+          "Bens Públicos": 2,
+          "Improbidade Administrativa": 1,
+          "Servidor Público": 2,
+          "Contratos Administrativos": 2,
+          "Licitações": 1,
+          "Intervenção na Propriedade": 1,
+          "Direito Administrativo - Outros": 2,
+          "Administração Direta e Indireta": 3,
+          "Poder de Polícia": 1
+        },
+        "Direito Penal": {
+          "Falsidade Ideológica": 1,
+          "Crimes contra Ordem Tributária": 4,
+          "Crimes contra Finanças Públicas": 1,
+          "Crimes Funcionais": 1,
+          "Direito Penal - Outros": 1
+        },
+        "Auditoria": {
+          "Auditoria - Outros": 6,
+          "Eventos Subsequentes": 2,
+          "NBC TA 500 - Evidência de Auditoria": 8,
+          "Auditoria Interna": 1,
+          "Procedimentos Analíticos": 2,
+          "Controles Internos": 3,
+          "Auditoria do Ativo": 1,
+          "Risco de Auditoria": 1,
+          "NBC TA 530 - Amostragem": 1,
+          "Relatório / Parecer de Auditoria": 2,
+          "NBC TA 705 - Modificações no Relatório": 1
+        },
+        "Gerenciamento de Projetos / BPM": {
+          "PMBOK": 4,
+          "BPM - Modelagem de Processos": 2
+        },
+        "Contabilidade de Custos": {
+          "Classificação de Custos": 5,
+          "Taxa de Aplicação de Custos Indiretos": 1,
+          "Custo Padrão vs Estimado": 1,
+          "Margem de Contribuição e Segurança": 1
+        },
+        "Estatística": {
+          "Distribuição Normal / Z": 1
+        }
+      }
+    },
+    "cespe-cebraspe-2025-sefaz-se-auditor-fiscal-tributario-geral-prova.md": {
+      "total_questoes": 123,
+      "disciplinas": {
+        "Tecnologia da Informação / Análise de Dados": {
+          "EFD ICMS/IPI / NF-e / SPED": 3,
+          "TI - Outros": 1,
+          "Dados Abertos": 1,
+          "Integração de Dados / ETL": 1,
+          "Banco de Dados Relacional": 7,
+          "Mineração de Dados": 4,
+          "Machine Learning": 1,
+          "Big Data": 1,
+          "SQL": 1
+        },
+        "Não Classificado": {
+          "Não Classificado": 11
+        },
+        "Língua Portuguesa": {
+          "Coesão e Coerência": 1,
+          "Reescrita de Frases": 1
+        },
+        "Administração Financeira e Orçamentária": {
+          "AFO - Outros": 2,
+          "Orçamento Público": 4,
+          "Execução Orçamentária": 2,
+          "Receita Pública": 2
+        },
+        "Direito Empresarial": {
+          "Reorganização Societária": 2
+        },
+        "Direito Tributário": {
+          "Simples Nacional / MEI": 7,
+          "ICMS - Benefícios Fiscais / Convênio CONFAZ": 1,
+          "ICMS - Base de Cálculo": 2,
+          "Lançamento Tributário": 1,
+          "Administração Tributária / Fiscalização": 3,
+          "Taxas": 1,
+          "IBS / Reforma Tributária": 2,
+          "Obrigação e Crédito Tributário": 2,
+          "Legislação Tributária / CTN": 1,
+          "ICMS - Fato Gerador e Incidência": 1
+        },
+        "Conhecimentos Regionais": {
+          "Geografia / Cultura do Estado": 3
+        },
+        "Matemática Financeira": {
+          "Taxas de Juros (Nominal, Real, Fisher)": 1,
+          "Juros Simples e Compostos": 1,
+          "VPL / TIR": 1
+        },
+        "Direito Administrativo": {
+          "LRF e Sanções": 1,
+          "Direito Administrativo - Outros": 1,
+          "Improbidade Administrativa": 2,
+          "Administração Direta e Indireta": 2,
+          "Licitações": 1,
+          "Responsabilidade Civil do Estado": 2,
+          "Poder de Polícia": 1,
+          "Delegação e Competência": 1
+        },
+        "Direito Civil": {
+          "Propriedade e Posse": 2,
+          "LINDB": 1,
+          "Sucessão": 2,
+          "CDC": 1
+        },
+        "Contabilidade Geral": {
+          "Balanço Patrimonial": 1,
+          "Escrituração e Balancete": 2,
+          "DRE e Apuração de Lucro": 2,
+          "Depreciação": 1,
+          "Equivalência Patrimonial": 1,
+          "ICMS na Contabilidade": 1,
+          "Índices Financeiros": 1
+        },
+        "Contabilidade de Custos": {
+          "Classificação de Custos": 1,
+          "Custeio por Absorção vs Variável": 1,
+          "ABC - Activity Based Costing": 1
+        },
+        "Direito Constitucional": {
+          "Direito Constitucional - Outros": 4,
+          "Organização dos Poderes": 5
+        },
+        "Direito Penal": {
+          "Falsidade Ideológica": 1
+        },
+        "Auditoria": {
+          "Auditoria - Outros": 1,
+          "Procedimentos Analíticos": 2,
+          "Planejamento de Auditoria": 1,
+          "NBC TA 500 - Evidência de Auditoria": 1
+        },
+        "Estatística": {
+          "Estatística Descritiva (Média, Mediana, Moda, Variância)": 1,
+          "Distribuição Binomial": 1,
+          "Distribuição Normal / Z": 2,
+          "Teste de Hipóteses": 1,
+          "Regressão e Correlação": 2
+        }
+      }
+    },
+    "esaf-2005-set-rn-auditor-fiscal-do-tesouro-estadual-prova-1-prova.md": {
+      "total_questoes": 49,
+      "disciplinas": {
+        "Não Classificado": {
+          "Não Classificado": 6
+        },
+        "Tecnologia da Informação / Análise de Dados": {
+          "EFD ICMS/IPI / NF-e / SPED": 1
+        },
+        "Direito Empresarial": {
+          "Direito Empresarial - Outros": 1,
+          "Títulos de Crédito": 4
+        },
+        "Raciocínio Lógico": {
+          "Problemas de Tempo e Horas": 1,
+          "Desigualdades e Intervalos": 1
+        },
+        "Direito Civil": {
+          "Direito Civil - Outros": 1,
+          "Regime de Bens": 1
+        },
+        "Língua Portuguesa": {
+          "Interpretação de Texto": 1
+        },
+        "Direito Administrativo": {
+          "Licitações": 1
+        },
+        "Contabilidade Geral": {
+          "Equivalência Patrimonial": 6,
+          "Contabilidade - Geral/Outros": 2,
+          "Balanço Patrimonial": 12,
+          "Ativo Intangível e Impairment": 4,
+          "Depreciação": 1,
+          "DRE e Apuração de Lucro": 1
+        },
+        "Estatística": {
+          "Intervalo de Confiança": 1
+        },
+        "Direito Constitucional": {
+          "Direito Constitucional - Outros": 1,
+          "Normas Constitucionais (Eficácia)": 1,
+          "Organização dos Poderes": 1
+        },
+        "Matemática Financeira": {
+          "Valor Presente e Futuro": 1
+        }
+      }
+    },
+    "prova_auditor_fiscal_conhec_espec.md": {
+      "total_questoes": 106,
+      "disciplinas": {
+        "Direito Tributário": {
+          "ICMS - Fato Gerador e Incidência": 6,
+          "Contribuições": 1,
+          "Legislação Tributária / CTN": 3,
+          "Direito Tributário - Geral": 2,
+          "Taxas": 1,
+          "Lançamento Tributário": 2,
+          "Repartição de Receitas": 1,
+          "Limitações ao Poder de Tributar": 1,
+          "Responsabilidade Tributária": 1,
+          "Impostos em Espécie (não ICMS)": 1,
+          "Administração Tributária / Fiscalização": 5,
+          "ICMS - Base de Cálculo": 2
+        },
+        "Direito Constitucional": {
+          "Organização dos Poderes": 1,
+          "Partidos Políticos": 1,
+          "Controle de Constitucionalidade": 1
+        },
+        "Não Classificado": {
+          "Não Classificado": 19
+        },
+        "Direito Administrativo": {
+          "Servidor Público": 1,
+          "Poder de Polícia": 1,
+          "Licitações": 1
+        },
+        "Direito Civil": {
+          "Regime de Bens": 1,
+          "Sucessão": 2,
+          "Obrigações": 1,
+          "Propriedade e Posse": 1,
+          "Contratos em Espécie": 2
+        },
+        "Tecnologia da Informação / Análise de Dados": {
+          "EFD ICMS/IPI / NF-e / SPED": 2
+        },
+        "Contabilidade Geral": {
+          "Escrituração e Balancete": 1,
+          "ICMS na Contabilidade": 1,
+          "Patrimônio Líquido e Destinação de Lucro": 1,
+          "Balanço Patrimonial": 6,
+          "DRE e Apuração de Lucro": 8,
+          "Demonstração dos Fluxos de Caixa": 1,
+          "Equivalência Patrimonial": 1,
+          "Depreciação": 1,
+          "Ativo Intangível e Impairment": 1,
+          "Debêntures / Instrumentos Financeiros": 1
+        },
+        "Matemática Financeira": {
+          "VPL / TIR": 1
+        },
+        "Contabilidade Avançada": {
+          "Contabilidade Avançada - Outros": 1,
+          "Combinação de Negócios e Goodwill": 1,
+          "Subvenção Governamental": 1
+        },
+        "Contabilidade de Custos": {
+          "Custeio por Absorção vs Variável": 2,
+          "Classificação de Custos": 2,
+          "Margem de Contribuição e Segurança": 2,
+          "Coprodutos e Subprodutos": 2,
+          "Ponto de Equilíbrio": 1,
+          "ABC - Activity Based Costing": 1
+        },
+        "Auditoria": {
+          "Controles Internos": 2,
+          "Contabilidade Criativa / Fraude": 1,
+          "Auditoria Interna": 1,
+          "NBC TA 500 - Evidência de Auditoria": 5,
+          "NBC TA 530 - Amostragem": 1
+        }
+      }
+    },
+    "prova_auditor_fiscal_conhec_gerais.md": {
+      "total_questoes": 107,
+      "disciplinas": {
+        "Não Classificado": {
+          "Não Classificado": 18
+        },
+        "Matemática Financeira": {
+          "VPL / TIR": 3,
+          "Taxas de Juros (Nominal, Real, Fisher)": 1,
+          "Juros Simples e Compostos": 3,
+          "Sistema de Amortização (SAC, Price)": 2,
+          "Valor Presente e Futuro": 2,
+          "Desconto (Comercial, Racional, Simples, Composto)": 1
+        },
+        "Língua Portuguesa": {
+          "Fraseologia / Expressões Idiomáticas": 2,
+          "Discurso Direto e Indireto": 1,
+          "Gramática (Concordância, Regência, Pontuação)": 1
+        },
+        "Direito Tributário": {
+          "Simples Nacional / MEI": 3,
+          "Obrigação e Crédito Tributário": 1,
+          "Administração Tributária / Fiscalização": 1
+        },
+        "Direito Civil": {
+          "Sucessão": 1,
+          "Responsabilidade Civil": 1,
+          "Direito Civil - Outros": 1,
+          "Contratos em Espécie": 2,
+          "CDC": 1,
+          "Regime de Bens": 1,
+          "Obrigações": 2,
+          "Prescrição e Decadência": 1,
+          "Negócio Jurídico": 1,
+          "Propriedade e Posse": 1
+        },
+        "Direito Empresarial": {
+          "Reorganização Societária": 2,
+          "Títulos de Crédito": 1
+        },
+        "Tecnologia da Informação / Análise de Dados": {
+          "EFD ICMS/IPI / NF-e / SPED": 9,
+          "Segurança da Informação / Criptografia": 1,
+          "Banco de Dados Relacional": 3,
+          "SQL": 1
+        },
+        "Contabilidade Geral": {
+          "Valor Presente / Ajuste a Valor Presente": 1,
+          "Demonstração dos Fluxos de Caixa": 1,
+          "Depreciação": 1
+        },
+        "Estatística": {
+          "Distribuição Normal / Z": 3,
+          "Teste de Hipóteses": 1,
+          "Distribuição de Poisson": 1,
+          "Distribuição de Frequências": 1,
+          "Intervalo de Confiança": 1,
+          "Regressão e Correlação": 3,
+          "Estatística Descritiva (Média, Mediana, Moda, Variância)": 1
+        },
+        "Direito Administrativo": {
+          "Direito Administrativo - Outros": 1,
+          "Administração Direta e Indireta": 1,
+          "Licitações": 2,
+          "LAIA / Transparência": 1,
+          "Improbidade Administrativa": 1,
+          "Processo Administrativo Disciplinar": 1
+        },
+        "Administração Financeira e Orçamentária": {
+          "Orçamento Público": 1
+        },
+        "Direito Penal": {
+          "Crimes contra Finanças Públicas": 4,
+          "Crimes contra Ordem Tributária": 2,
+          "Crimes Funcionais": 1,
+          "Inserção de Dados Falsos": 1,
+          "Crimes contra Relações de Consumo": 1
+        },
+        "Direito Constitucional": {
+          "Organização Político-Administrativa": 1,
+          "Remédios Constitucionais": 1,
+          "Processo Legislativo": 1,
+          "Competência Legislativa": 3,
+          "Elegibilidade e Condições": 1,
+          "Direito Constitucional - Outros": 1
+        }
+      }
+    },
+    "sefaz-es-auditor-fiscal-da-receita-estadual-p1-af01-tipo-1.md": {
+      "total_questoes": 67,
+      "disciplinas": {
+        "Direito Tributário": {
+          "Direito Tributário - Geral": 2,
+          "Contribuições": 2,
+          "ICMS - Fato Gerador e Incidência": 2,
+          "ICMS - Benefícios Fiscais / Convênio CONFAZ": 2,
+          "Limitações ao Poder de Tributar": 3,
+          "Obrigação e Crédito Tributário": 2,
+          "Administração Tributária / Fiscalização": 5,
+          "Legislação Tributária / CTN": 2,
+          "Impostos em Espécie (não ICMS)": 1,
+          "Simples Nacional / MEI": 1
+        },
+        "Direito Empresarial": {
+          "Sociedades Empresárias": 6
+        },
+        "Direito Civil": {
+          "Propriedade e Posse": 2
+        },
+        "Tecnologia da Informação / Análise de Dados": {
+          "EFD ICMS/IPI / NF-e / SPED": 4,
+          "Banco de Dados Relacional": 2,
+          "SQL": 2,
+          "LGPD": 1,
+          "Segurança da Informação / Criptografia": 1
+        },
+        "Contabilidade Geral": {
+          "Balanço Patrimonial": 5,
+          "Provisões": 2,
+          "Depreciação": 2,
+          "Ativo Imobilizado": 1,
+          "Equivalência Patrimonial": 1,
+          "Escrituração e Balancete": 1,
+          "Contabilidade - Geral/Outros": 2
+        },
+        "Não Classificado": {
+          "Não Classificado": 4
+        },
+        "Contabilidade Avançada": {
+          "Mudança de Política Contábil e Estimativa": 1
+        },
+        "Contabilidade de Custos": {
+          "Ponto de Equilíbrio": 1
+        },
+        "Estatística": {
+          "Regressão e Correlação": 1
+        },
+        "Auditoria": {
+          "Estatísticas de Finanças Públicas": 1,
+          "NBC TA 530 - Amostragem": 1,
+          "NBC TA 500 - Evidência de Auditoria": 1,
+          "Auditoria do Ativo": 1,
+          "Auditoria de Grupo/Consolidado": 1,
+          "NBC TA 705 - Modificações no Relatório": 1
+        }
+      }
+    }
+  }
+}
