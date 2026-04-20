@@ -1,0 +1,24 @@
+﻿{
+  "request_id": "REQ-0001",
+  "mode": "autonomo",
+  "task_type": "dashboard_ui",
+  "from_skill": "software-engineer",
+  "to_skill": "dashboard-creator",
+  "owned_paths": [
+    "ui/dashboard/**",
+    "dashboards/**",
+    "reports/**"
+  ],
+  "acceptance_criteria": [
+    "KPI cards renderizados",
+    "grafico principal renderizado",
+    "layout responsivo minimo",
+    "sem escrita fora de owned_paths"
+  ],
+  "status": "ready",
+  "questions": [],
+  "files_changed": [],
+  "validation_commands": [],
+  "validation_result": "pending",
+  "residual_risk": "none"
+}
