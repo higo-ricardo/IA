@@ -10,8 +10,8 @@
 |----------|------|-----------|
 | **Conceito-chave** | 30% (3 pts) | Mencionou o conceito/princípio central? |
 | **Fundamento legal/doutrinário** | 30% (3 pts) | Citou norma, artigo, lei ou doutrina? |
-| **Raciocínio aplicado** | 25% (2.5 pts) | Aplicou ao caso de forma lógica? |
-| **Clareza e estrutura** | 15% (1.5 pts) | Organizada, coesa, linguagem técnica? |
+| **Raciocínio aplicado** | 20% (2 pts) | Aplicou ao caso de forma lógica? |
+| **Clareza e estrutura** | 20% (2 pts) | Organizada, coesa, linguagem técnica? |
 
 ---
 
@@ -25,8 +25,8 @@ Nota: [X]/10
 Critérios:
 • Conceito-chave:       [X]/3  ✅/⚠️/❌
 • Fundamento legal:     [X]/3  ✅/⚠️/❌
-• Raciocínio aplicado:  [X]/2.5 ✅/⚠️/❌
-• Clareza/estrutura:    [X]/1.5 ✅/⚠️/❌
+• Raciocínio aplicado:  [X]/2 ✅/⚠️/❌
+• Clareza/estrutura:    [X]/2 ✅/⚠️/❌
 
 Espelho de resposta:
 [Resposta modelo esperada, com conceitos, fundamentos e raciocínio]

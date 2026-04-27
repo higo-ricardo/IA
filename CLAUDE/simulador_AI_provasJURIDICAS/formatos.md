@@ -4,7 +4,7 @@
 
 ---
 
-## Formato 1 — Certo / Errado
+## Formato 1 — V/F (Certo / Errado)
 
 ```
 Questão [N]/[TOTAL] · [Nível] · ⏱️ ref. [T]s · [Confidence: X/10]
@@ -18,7 +18,7 @@ Afirmativa:
 
 ---
 
-## Formato 2 — Múltipla Escolha (A–E)
+## Formato 2 — Multi (A–E)
 
 ```
 Questão [N]/[TOTAL] · [Nível] · ⏱️ ref. [T]s · [Confidence: X/10]
@@ -34,7 +34,7 @@ E) [alternativa]
 
 ---
 
-## Formato 3 — Tipo A (Proposições)
+## Formato 3 — Proposições (Tipo A)
 
 ```
 Questão [N]/[TOTAL] · [Nível] · ⏱️ ref. [T]s · [Confidence: X/10]
@@ -56,7 +56,7 @@ E) Todas são corretas
 
 ---
 
-## Formato 4 — Discursiva
+## Formato 4 — Discursiva (DISC)
 
 ```
 Questão [N]/[TOTAL] · [Nível] · ⏱️ ref. [T]s · [Confidence: X/10]
@@ -74,7 +74,7 @@ Questão [N]/[TOTAL] · [Nível] · ⏱️ ref. [T]s · [Confidence: X/10]
 
 ---
 
-## Formato 5 — Estudo de Caso
+## Formato 5 — Estudo de Caso (EC)
 
 ```
 Questão [N]/[TOTAL] · [Nível] · ⏱️ ref. [T]s · [Confidence: X/10]
@@ -99,7 +99,7 @@ Com base no contexto apresentado, responda:
 
 ---
 
-## Formato 6 — Exceto / Incorreto
+## Formato 6 — Exceto / Incorreto (Exceto)
 
 ```
 Questão [N]/[TOTAL] · [Nível] · ⏱️ ref. [T]s · [Confidence: X/10]

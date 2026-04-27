@@ -59,8 +59,8 @@ Preparado? A prova começa agora. Boa sorte! 🎯
 
 | Nível | Composição |
 |-------|-----------|
-| **Básico** | 40% de `web_fetch` + 45% em `fontes.md` + 15% do conhecimento do LLM  | 
-| **Intermediário** | 30% de `web_fetch` + 30% em `fontes.md` + 15% do conhecimento do LLM + 25% de `VerbetesSTF.md` + `VerbetesSTJ.md` + `SumulasVinculantes.md` |
+| **Básico** | 70% de `web_fetch` em `fontes.md` + 30% do conhecimento do LLM  | 
+| **Intermediário** | 50% de `web_fetch` em `fontes.md` + 15% do conheciento do LLM + 35% de `VerbetesSTF.md` + `VerbetesSTJ.md` + `SumulasVinculantes.md` |
 | **Avançado** | 20% de `web_fetch` + 30% em  `fontes.md` + 15% de `VerbetesSTF.md` + 20% `VerbetesSTJ.md` + 5% `SumulasVinculantes.md` + 10% do conhecimento do LLM | 
 | **Sênior** | 10% `web_fetch` + 35% de `fontes.md` + 20% de `VerbetesSTF.md` + 20% de `VerbetesSTJ.md` + 10% de `SumulasVinculantes.md` + 5% do conhecimento do LLM | 
 
@@ -103,6 +103,122 @@ Questão nº | Resposta usuário | Resposta correta (oculta) | Tempo usado
 
 > 📂 **Ver `formatos.md`** — Templates completos dos 6 formatos + diretrizes de elaboração.
 > Carregar ao renderizar cada questão.
+
+## Algoritmo de Variação de Formatos — Round-Robin
+
+**6 formatos disponíveis:**
+1. Multi (A–E) — Múltipla escolha
+2. V/F — Certo ou Errado
+3. Proposições — Itens (I, II, III...)
+4. Discursiva — Texto dissertativo
+5. Estudo de Caso — Caso fático + questão objetiva
+6. Exceto/Incorreto — "Qual NÃO é correto?"
+
+**Estratégia de rotação:**
+- Sequência fixa: `[1 → 2 → 3 → 4 → 5 → 6 → 1 → 2...]` (round-robin)
+- Offset aleatório: escolher posição inicial aleatória para evitar padrão previsível
+- Resultado: evita repetição consecutiva e distribui os 6 formatos uniformemente
+
+**Implementação (exemplo em pseudocódigo):**
+```
+import random
+formatos = ["Multi (A–E)", "V/F", "Proposições", "Discursiva", "Estudo de Caso", "Exceto/Incorreto"]
+offset = random.randint(0, 5)
+sequencia_prova = [formatos[(offset + i) % 6] for i in range(num_questoes)]
+```
+
+## Gerenciamento de Estado — Limite de Contexto
+
+### Estrutura de Armazenamento (estado por questão)
+```
+{
+  "q_id": 5,
+  "formato": "Multi (A–E)",
+  "enunciado": "[texto completo]",
+  "alternativas": ["A...","B...","C...","D...","E..."],
+  "resposta_usuario": "C",
+  "resposta_correta": "D",
+  "tempo_usado": 45,
+  "confidence": 8,
+  "feedback_exibido": true
+}
+```
+
+**Limite e Compressão:**
+- Limite total de estado mantido em contexto: ~15.000 tokens
+- Preservar **últimas 10 questões** completas
+- Questões anteriores: armazenar como resumo executivo (ex.: acertos/tempo/tópicos)
+
+**Política:**
+- Q1–Q10: estado completo
+- Q11–Q20: resumo + últimas 5 completas
+- Q21+: apenas resumo executivo + últimas 3 completas
+
+## Composição Revisada por Nível
+
+### Princípios
+- Plausibilidade para o LLM (fontes suficientes) e desafio para o usuário
+
+| Nível | Composição | Lógica | Desafio |
+|-------|------------|--------|--------|
+| Básico | 60% Fontes + 40% LLM | Conceitos claros e verificáveis | Baixo |
+| Intermediário | 35% Fontes + 25% Verbetes + 40% LLM | Norma + súmula + síntese LLM | Médio |
+| Avançado | 20% Fontes + 20% Verbetes + 30% Doutrina + 30% LLM | 3 camadas: norma, jurisprudência, análise | Alto |
+| Sênior | 15% Fontes + 15% Verbetes + 25% Doutrina + 45% LLM | LLM sintetiza conflitos doutrinários/precedentes | Crítico |
+
+**Algoritmo de Seleção (resumo)**
+1. Selecionar fonte primária de acordo com % do nível
+2. Extrair fragmentos (1–3 linhas) quando usar `fontes.md`/verbetes
+3. Permitir que LLM sintetize enunciado e alternativas a partir das fontes
+4. Garantir Confidence ≥ 7 antes de exibir
+
+## Geração de Distratores Inteligentes (Atualizado)
+
+### 7 Tipos de Distratores (padronizado)
+
+| Tipo | Descrição | Diferença Semântica | Exemplo (norma: "Pai autoriza filho") |
+|------|-----------|--------------------:|----------------------------------------|
+| **1. Oposição Simples** | Nega o gabarito completamente | 90% | "Pai proíbe filho" |
+| **2. Negação simples** | Adiciona NÃO quando afirmativa ou remove NÃO quando negativa | 70% | "Pai não autoriza filho" |
+| **3. Inversão Sujeito/Objeto** (NOVO) | Inverte sujeito ↔ objeto da norma | 65% | "Filho autoriza pai" (se gabarito = pai autoriza) |
+| **4. Elemento Periférico** | Muda detalhe secundário | 50% | "Pai autoriza neto" |
+| **5. Confusão Normativa** | Mistura norma correta com outra | 40% | "Pai autoriza, como em arrendamento rural" |
+| **6. Pré-requisito Ausente** | Remove 1 pré-requisito do gabarito | 35% | "Pai autoriza (sem atingir maioridade)" |
+| **7. Qualificador Falso** | Adiciona qualificador que inverte significado | 25% | "Pai autoriza, desde que o filho discorde" |
+
+**Regra:** cada distrator deve ter diferença semântica ≥ 25% (validar via métrica de similaridade)
+
+**Distribuição por Nível (resumo)**
+- Básico: 1,2,4 (óbvios)
+- Intermediário: 1,2,4,5,6 (moderados)
+- Avançado: 2,3,5,6,7 (desafiadores)
+- Sênior: 3,5,6,7 (complexos)
+
+**Novo distrator incluído:** Inversão Sujeito/Objeto (Tipo 3) — já listado acima.
+
+## Padronização de Terminologia — Formatos
+
+| Antes | Depois | Abreviação | Descrição |
+|-------|--------|-----------|-----------|
+| Múltipla A–E | **Multi (A–E)** | M5 | 5 alternativas; 1 correta |
+| Certo ou Errado | **V/F** | VF | Verdadeiro ou Falso |
+| Proposições | **Proposições** | PROP | Itens I, II, III... |
+| Discursiva | **Discursiva** | DISC | Resposta dissertativa |
+| Estudo de Caso | **Estudo de Caso** | EC | Caso fático + pergunta |
+| Exceto/Incorreto | **Exceto** | EXC | "Qual NÃO é correto?" |
+
+**Passo 6 (Tipo de questão) — Revisado:**
+```
+Passo 6 → Qual tipo de questão preferir?
+  (A) Multi (A–E)  — 5 alternativas
+  (B) V/F          — Verdadeiro ou Falso
+  (C) Proposições  — Itens a marcar
+  (D) Discursiva   — Texto livre
+  (E) Estudo de Caso — Caso + pergunta
+  (F) Exceto       — Qual NÃO é correto?
+  Padrão: (A) Multi (A–E)
+```
+
 
 ---
 

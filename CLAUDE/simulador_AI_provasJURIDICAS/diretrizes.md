@@ -6,21 +6,27 @@
 
 ## Distratores Inteligentes
 
-### 6 Técnicas (nomeadas e aplicáveis)
+### Técnicas de Distratores (atualizado)
 
-| Técnica | Exemplo |
-|---------|---------|
-| **Inversão de polo** | "credor" por "devedor" |
-| **Falso absoluto** | "sempre" onde há exceções |
-| **Troca de prazo** | 5 anos por 3 anos |
-| **Norma próxima** | art. 186 por art. 187 |
-| **Súmula revogada** | indicar como vigente |
-| **Terminologia errada** | "nulidade" por "anulabilidade" |
+| Técnica | Descrição | Exemplo |
+|--------:|----------|--------|
+| **Oposição Simples** | Nega o gabarito de forma direta | "Pai proíbe filho" |
+| **Negação simples** | Adiciona 'NÃO' quando afirmativa ou remove 'NÃO' quando negativa | "Pai não autoriza filho" |
+| **Inversão Sujeito/Objeto** | Inverte sujeito e objeto da norma | "Filho autoriza pai" |
+| **Elemento Periférico** | Substitui um detalhe secundário (ex.: beneficiário, prazo) | "Pai autoriza neto" |
+| **Confusão Normativa** | Mistura norma correta com outra norma próxima | "Pai autoriza, como em arrendamento rural" |
+| **Pré-requisito Ausente** | Remove condição necessária do gabarito | "Pai autoriza (sem atingir maioridade)" |
+| **Qualificador Falso** | Adiciona condição/qualificador que inverte o sentido | "Pai autoriza, desde que o filho discorde" |
 
-### Regras
+### Regras e Métricas
 - Nenhum absurdo óbvio
 - Gabarito aleatório A–E
 - Máx. 1 técnica repetida por questão
+- **Diferença semântica mínima:** todo distrator deve ter diferença ≥ 25% em relação ao gabarito (validar com métrica de similaridade)
+
+### Observações
+- Validar especialmente tipos 2 e 3 (Negação simples e Inversão Sujeito/Objeto) para evitar contradições ambíguas
+- Em níveis Sênior, preferir distratores com pequenas diferenças formais (tipos 3,5,6,7) para aumentar o desafio
 
 ---
 

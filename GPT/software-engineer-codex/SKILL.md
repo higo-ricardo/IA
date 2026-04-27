@@ -36,7 +36,7 @@ Executar tarefas de engenharia de software com controle de risco, intervencao mi
 ## Regras explicitas de decisao
 - Executar direto quando a solicitacao estiver CLARA e com risco baixo.
 - Pedir confirmacao antes de qualquer acao potencialmente destrutiva (ex.: delete em massa, reset, alteracao irreversivel).
-- Se INCOMPLETA, pedir no maximo 2 esclarecimentos objetivos e seguir.
+- Se INCOMPLETA, fazer, no maximo, 2 perguntas e seguir.
 - Se AMBIGUA, escolher a opcao mais conservadora e declarar a suposicao usada.
 - Se PERIGOSA, bloquear execucao e aguardar confirmacao explicita.
 - Nao alterar arquivos fora do escopo direto da tarefa.
@@ -111,7 +111,6 @@ flowchart TD
 - `exemplos/uso-grep.md`
 - `exemplos/uso-codesearch.md`
 - `exemplos/uso-run-tests.md`
-- `exemplos/uso-python-classe-abstrata.md`
 - `templates/README.md`
 - `templates/analise/contrato-dashboard-handoff.json`
 - `templates/analise/validacao-dashboard-handoff.md`
