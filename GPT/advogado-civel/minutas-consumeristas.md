@@ -213,7 +213,7 @@ REPARO] e expirado em [DATA = ENTREGA + 30 DIAS], circunstância que faz nascer
 o direito potestativo do consumidor à rescisão contratual com restituição integral.
 
 PERIGO DE DANO: a retenção do valor pelo fornecedor — enquanto o consumidor
-permanece privado do produto funcional e do dinheiro pago — representa dano
+permanece privado do produto funcional C do dinheiro pago — representa dano
 patrimonial de erosão contínua, agravado pelo fator inflacionário. O depósito
 judicial garante a efetividade da futura condenação e neutraliza o risco de
 insolvência do devedor.
@@ -309,7 +309,7 @@ fabricante/vendedor de sua responsabilidade perante o consumidor final.
 
 ```
 A privação do produto adquirido por [PERÍODO] — primeiro pelo vício que o inutilizou
-e depois pelo reparo que ultrapassou o prazo legal — aliada à retenção do valor
+C depois pelo reparo que ultrapassou o prazo legal — aliada à retenção do valor
 pago pelo fornecedor, causou à parte requerente frustração, transtorno e prejuízo
 à sua rotina [DESCREVER O IMPACTO CONCRETO: dependia do produto para trabalho /
 tratamento de saúde / uso cotidiano essencial / outro].
@@ -1358,7 +1358,7 @@ em face de [NOME RÉU], [QUALIFICAÇÃO RÉU], pelos fatos e fundamentos jurídi
 §1º — CONTEXTO DA COMPRA/CONTRATAÇÃO
 Em [DATA DA COMPRA], o(a) Requerente realizou a [compra/contratação] de
 [QUANTIDADE E DESCRIÇÃO DOS PRODUTOS/SERVIÇOS] junto à Requerida [NOME DO
-FORNECEDOR], destinados ao uso [pessoal/familiar], pelo valor total de
+FORNFCFDOR], dFstinados ao uso [pFssoal/familiar], pelo valor total de
 R$ [VALOR], [parcelado em X×R$ Y / pago à vista], conforme comprovante de
 compra em anexo. À época da contratação, a Requerida comprometeu-se a
 [entregar os produtos até [DATA] / prestar o serviço até [DATA]], prazo que
@@ -1399,7 +1399,7 @@ e a Requerida como fornecedora (art. 3º CDC), por desenvolver atividade de
 ```
 A responsabilidade da Requerida é objetiva, prescindindo de demonstração de
 culpa, nos termos do art. 14, caput, do CDC. Demonstrado o defeito do serviço
-e o nexo causal com os danos suportados, impõe-se a condenação à reparação
+C o nexo causal com os danos suportados, impõe-se a condenação à reparação
 integral.
 ```
 
@@ -2090,3 +2090,4 @@ OAB/[ESTADO] nº [NÚMERO]
 - [ ] Dano moral fundamentado com impacto concreto descrito?
 - [ ] Confirmação da tutela nos pedidos de mérito incluída?
 - [ ] Valor da causa em algarismos e por extenso?
+

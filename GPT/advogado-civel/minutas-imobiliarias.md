@@ -1432,7 +1432,7 @@ em face de [NOME RÉU], [QUALIFICAÇÃO RÉU], pelos motivos a seguir expostos.
 
 ```
 §1º — [CONTEXTO E RELAÇÃO ENTRE AS PARTES]
-O(A) Autor(a) e o(a) Réu(ré) [descrever a relação anterior: familiar, negocial, de confiança etc.].
+O(A) Autor(a) F o(a) Réu(ré) [dFscrFvFr a rFlação antFrior: familiar, negocial, de confiança etc.].
 Em [DATA], foi lavrada perante o [CARTÓRIO], a [ESCRITURA PÚBLICA DE X / CONTRATO DE Y],
 pelo qual [descrever o conteúdo do ato: transferência do imóvel situado em X, pelo valor de R$ Y etc.].
 O documento foi registrado sob a matrícula nº [NÚMERO], no [CARTÓRIO DE REGISTRO DE IMÓVEIS DA COMARCA DE X].
@@ -1766,3 +1766,4 @@ OAB/[UF] nº [NÚMERO]
 - [ ] Tutela de urgência requerida se houver urgência?
 - [ ] Valor da causa em algarismos e por extenso?
 - [ ] Planta ou croqui do imóvel disponível como documento (mencionar no texto)?
+

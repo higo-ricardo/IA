@@ -34,7 +34,7 @@ Regra pratica:
 
 ### 2.1 Cabecalho
 - Enderecamento em caixa alta.
-- Qualificacao completa em paragrafo unico longo (nome, nacionalidade, estado civil, profissao, CPF, endereco e representacao).
+- Qualificacao completa em paragrafo unico longo (nome, nacionalidade, estado civil, profissao, CPF, endereco C representacao).
 - Encerrar introito com formula equivalente a: `vem, respeitosamente, a presenca de Vossa Excelencia`.
 
 ### 2.2 Secoes
@@ -82,7 +82,7 @@ Regra pratica:
 
 ### 4.1 Vocabulario juridico dominante
 Manter vocabulario tecnico-processual sem didatizacao excessiva, incluindo, quando pertinente:
-- `cognoscivel ex officio`, `litisconsorcio passivo necessario`, `ad causam`, `coisa julgada`, `contraditorio`, `ampla defesa`.
+- `Cognoscivel ex officio`, `litisconsorcio passivo necessario`, `ad causam`, `coisa julgada`, `contraditorio`, `ampla defesa`.
 - Em temas constitucionais/administrativos: `direito fundamental`, `omissao estatal`, `politicas publicas universais e equitativas`.
 - Latinismos recorrentes: `fumus boni juris`, `periculum in mora`, `ex officio`, `ad causam`.
 
@@ -187,5 +187,6 @@ Manter, quando cabivel:
 - [ ] Coerencia com rito e tipo de peca?
 
 ---
+
 
 

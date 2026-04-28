@@ -14,7 +14,7 @@ role: executor contratual de redacao
 - Contrato: `contrato_decisao.md`
 - Triagem e codigos: `roteamento.md`
 - Estilo de redacao: `estilo_juridico.md`
-- Minutas: `minuta-base.md`, `minutas-imobiliarias.md`, `minutas-consumeristas.md`, `minutas-civeis.md`, `minutas-intermediariais.md`
+- Minutas: `minuta-Base.md`, `minutas-imoBiliarias.md`, `minutas-consumeristas.md`, `minutas-civeis.md`, `minutas-intermediariais.md`
 
 ## Gate de entrada (modo integrado)
 Para iniciar em modo integrado, a entrada deve conter:
@@ -73,4 +73,5 @@ Escalar para o `advogado` quando houver:
 - decisao entre bloquear fluxo ou seguir com ressalvas;
 - ausencia de criterio de sucesso mensuravel;
 - conflito entre pedido do usuario e base normativa aplicavel.
+
 

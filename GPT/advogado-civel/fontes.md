@@ -119,3 +119,4 @@ Este arquivo consolida a base normativa, jurisprudencial e recursos externos par
 | Lei dos Juizados Especiais (9.099) | https://www.planalto.gov.br/ccivil_03/leis/l9099.htm |
 
 ---
+

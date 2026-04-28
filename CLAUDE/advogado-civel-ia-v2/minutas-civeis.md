@@ -1,11 +1,219 @@
 
 
 > **Nota de estrutura — minutas-civeis.md:**
-> Este arquivo contém as minutas do **Domínio C (Cível Geral)**: ATR, ALU, REP-C, RES, REX.
-> Hospeda também a minuta **DEM (Demarcação de Terras)**, classificada no **Domínio A (Imobiliário)**,
+> Este arquivo contém as minutas do **Domínio C (Cível Geral)**: ATR, ALU, REP-C, RES, REX, REP. 
 > por conveniência de edição. O estagiário deve buscar DEM neste arquivo ao receber briefing com código DEM.
-> REP-C (Réplica Cível) é distinta de REP (D2 — `minutas-replica-alvara-cumprimento.md`):
 > usar o template correto conforme o código do contrato.
+
+---
+### [ARQUIVO: replica_contestacao.md]
+
+# Minuta: Réplica à Contestação (REP)
+
+## Código: REP | Art. 351, CPC/2015
+
+---
+
+## Checklist pré-redação
+
+- [ ] Identificar TODAS as preliminares suscitadas pelo réu (art. 337, CPC)
+- [ ] Mapear cada tese de mérito defensiva — uma subseção por tese
+- [ ] Há documentos novos a juntar na réplica? (art. 435, CPC — "fatos novos")
+- [ ] Há teses omitidas na contestação a destacar (revelia parcial)?
+- [ ] Prazo: 15 dias contados da intimação da contestação (art. 351, CPC)
+- [ ] Há necessidade de impugnar especificamente fatos NÃO contestados? (art. 341, CPC)
+- [ ] Há documentos juntados pelo réu na contestação a impugnar?
+- [ ] Manutenção integral dos pedidos iniciais ou alteração permitida (art. 329, CPC)?
+
+---
+
+## Estrutura Obrigatória da Peça
+
+### 1. CABEÇALHO
+
+```
+EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA [__] VARA [CÍVEL /
+DA FAZENDA PÚBLICA / FAMÍLIA] DA COMARCA DE [COMARCA] DO ESTADO DO [ESTADO]
+
+PROCESSO N° [NÚMERO DO PROCESSO]
+```
+
+### 2. QUALIFICAÇÃO E TIPO DE PEÇA
+
+```
+[NOME DO AUTOR], já qualificado(a) nos autos, por seu advogado que subscreve,
+vem, respeitosamente, à presença de Vossa Excelência, nos termos do artigo 351
+do Código de Processo Civil, apresentar
+
+RÉPLICA À CONTESTAÇÃO
+
+pelos motivos de fato e de direito a seguir expostos.
+```
+
+---
+
+### 3. DOS FATOS RELEVANTES PARA A RÉPLICA
+
+```
+A parte Requerida apresentou contestação em [DATA], sustentando, em síntese,
+[RESUMO DAS TESES DA CONTESTAÇÃO: negar o fato / arguir preliminares de X /
+alegar excludente Y], argumentos que não merecem prosperar, porquanto carecem
+de amparo fático e jurídico, conforme se demonstrará a seguir.
+
+Cumpre recordar, inicialmente, os fatos narrados na petição inicial, que
+permanecem incontroversos em sua substância: [BREVE SÍNTESE DOS FATOS DA
+INICIAL]. A contestação, ao revés do que pretende, não logrou infirmar as
+alegações autorais, limitando-se a [negativa genérica dos fatos / alegações
+formais / juntada de documentos impertinentes].
+
+Diante disso, impõe-se a análise detida de cada argumento defensivo, a fim
+de demonstrar sua absoluta improcedência, reafirmando-se o direito do Autor
+a provimento jurisdicional favorável.
+```
+
+---
+
+### 4. DAS PRELIMINARES SUSCITADAS *(um subtítulo por preliminar)*
+
+```
+[REPETIR PARA CADA PRELIMINAR ARGUIDA NA CONTESTAÇÃO]
+
+A alegação de [NOME DA PRELIMINAR — ex.: ilegitimidade passiva, inépcia,
+falta de interesse processual] não merece acolhida. Com efeito, [ARGUMENTO
+DE IMPUGNAÇÃO], razão pela qual deve ser afastada, prosseguindo-se o feito
+em seus ulteriores termos, nos termos do artigo [X] do CPC.
+
+[Exemplos de impugnação:]
+
+[Ilegitimidade passiva:]
+O réu integra a cadeia de [fornecimento / prestação / responsabilidade] que
+originou o dano ao Autor, nos termos do artigo [X] do [CDC / CC], sendo
+inafastável sua sujeição ao polo passivo da presente demanda.
+
+[Inépcia da inicial:]
+A petição inicial preenche todos os requisitos do artigo 319 do CPC,
+descrevendo com precisão os fatos, o fundamento jurídico e o pedido certo
+e determinado. A contestação confunde inépcia com mero dissenso de mérito.
+
+[Prescrição / Decadência:]
+A pretensão autoral não se encontra prescrita. O prazo [X] do artigo [Y]
+iniciou-se em [DATA], sendo que a ação foi proposta em [DATA], dentro do
+lapso temporal cabível. [Justificar com o evento que marca o dies a quo.]
+```
+
+---
+
+### 5. DO MÉRITO — IMPUGNAÇÃO ESPECÍFICA *(um subtítulo por tese defensiva)*
+
+```
+[TESE 1 DA CONTESTAÇÃO — IMPUGNAÇÃO:]
+O argumento de [DESCREVER A TESE DO RÉU] não prospera. O artigo [X] do
+[DIPLOMA] é claro ao determinar que [REPRODUZIR OU RESUMIR A NORMA], cujos
+requisitos estão plenamente preenchidos no caso concreto, conforme demonstram
+os documentos acostados à inicial (DOC [XX]).
+
+A jurisprudência pátria é pacífica no sentido de que [CITAR ENTENDIMENTO /
+SÚMULA APLICÁVEL], o que demonstra a correção da tese autoral e a fragilidade
+da postura defensiva.
+
+Assim, resta evidente que [CONCLUSÃO DO SUBTEMA].
+
+[TESE 2 DA CONTESTAÇÃO — IMPUGNAÇÃO:]
+[Repetir a estrutura: tese do réu → norma aplicável → subsunção ao caso →
+conclusão + conexão com o pedido.]
+
+[DOCUMENTOS JUNTADOS PELO RÉU:]
+Os documentos acostados à contestação não infirmam os fatos narrados na
+inicial; ao contrário, [DEMONSTRAR QUE OS DOCUMENTOS SÃO IMPERTINENTES OU
+CONFIRMAM A TESE DO AUTOR]. Ressalte-se, ainda, que o Requerido não produziu
+prova suficiente para [DESCONSTITUIR O FATO CONSTITUTIVO DO DIREITO DO AUTOR],
+ônus que lhe competia, nos termos do artigo 373, II, do CPC.
+```
+
+---
+
+### 6. DA MANUTENÇÃO DOS PEDIDOS INICIAIS
+
+```
+Diante da improcedência de todos os argumentos defensivos apresentados pela
+parte Requerida, reafirma-se integralmente a veracidade dos fatos narrados
+na petição inicial, bem como a robustez dos fundamentos jurídicos ali expostos,
+os quais não foram abalados pela contestação.
+
+Assim, mantêm-se os pedidos formulados na petição inaugural em todos os seus
+termos, requerendo-se a procedência total da demanda.
+```
+
+---
+
+### 7. DAS PROVAS
+
+```
+Requer a produção de todos os meios de prova admitidos em direito, notadamente
+documental, testemunhal e pericial, sem exclusão de nenhuma outra que se mostre
+necessária à comprovação dos fatos narrados. Protesta provar o alegado por todos
+os meios de provas admitidas em direito, depoimentos, documentos e quaisquer
+outros, se necessário.
+```
+
+---
+
+### 8. DOS PEDIDOS
+
+```
+Ante o exposto, requer a Vossa Excelência:
+
+a) O RECEBIMENTO e PROCESSAMENTO da presente réplica, determinando-se a
+   juntada aos autos;
+
+b) O AFASTAMENTO de todas as preliminares suscitadas pela parte Requerida,
+   por total improcedência;
+
+c) [Se houver fatos novos:] A JUNTADA dos documentos acostados a esta réplica,
+   por refletirem fatos novos ou resposta direta aos documentos trazidos pelo Réu
+   na contestação (art. 435, CPC);
+
+d) Ao final, a PROCEDÊNCIA TOTAL dos pedidos formulados na petição inicial, com
+   a condenação da parte Requerida nos termos ali requeridos;
+
+e) A condenação da parte Requerida ao pagamento de custas processuais e
+   honorários advocatícios de sucumbência, nos termos do artigo 85, §2º, do
+   Código de Processo Civil.
+
+Dar-se-á à causa o valor de R$ [VALOR] ([por extenso]), para os devidos fins.
+
+[Cidade]/MA, [dia] de [mês] de [ano].
+
+Nestes termos, pede deferimento.
+
+[NOME DO ADVOGADO]
+OAB/MA nº [NÚMERO]
+```
+
+---
+
+## Checklist de Validação Final (REP)
+
+- [ ] Prazo verificado: 15 dias da intimação da contestação (art. 351, CPC)?
+- [ ] TODAS as preliminares da contestação rebatidas individualmente?
+- [ ] CADA tese de mérito da contestação impugnada em subseção própria?
+- [ ] Documentos novos juntados se necessário (art. 435, CPC)?
+- [ ] Pedidos da inicial mantidos e reafirmados expressamente?
+- [ ] Valor da causa declarado?
+
+## Referências Legais Consolidadas — REP
+
+| Dispositivo | Conteúdo |
+|-------------|----------|
+| Art. 351 | CPC/2015 — Direito de réplica do autor |
+| Art. 329 | CPC/2015 — Modificação do pedido ou da causa de pedir |
+| Art. 335 | CPC/2015 — Prazo para contestação |
+| Art. 337 | CPC/2015 — Preliminares cabíveis na contestação |
+| Art. 341 | CPC/2015 — Ônus da impugnação específica |
+| Art. 373, II | CPC/2015 — Ônus da prova do réu (fatos impeditivos) |
+| Art. 435 | CPC/2015 — Juntada de documentos após a inicial |
+| Art. 85, §2º | CPC/2015 — Honorários advocatícios sucumbenciais |
+
 
 ---
 ### [ARQUIVO: acidente_transito.md]
@@ -168,7 +376,7 @@ Não é ação consumerista — relação locatícia é regulada pela Lei 8.245/
 
 ## Estrutura Completa
 
-### 1. CABEÇA
+### 1. CABEÇALHO
 
 *Vara Cível (procedimento comum — recomendado quando há pedido de despejo):*
 ```
@@ -363,244 +571,7 @@ de forma tão eficiente.
 
 
 ---
-### [ARQUIVO: demarcacao_terras.md]
 
-# Minuta: Ação de Demarcação de Terras (DEM)
-
-## Código: DEM | Arts. 569–587, CPC/2015 + Arts. 1.297–1.298, CC/2002 | Vara Cível — Procedimento Especial
-
----
-
-## Distinção Fundamental
-
-| Ação | Objeto | Quando usar |
-|------|--------|-------------|
-| **Demarcação (DEM)** | Fixar ou reconstituir limites entre imóveis confinantes | Limites incertos, apagados ou contestados entre vizinhos |
-| **Divisão (DIV)** | Dividir imóvel em estado de comunhão | Coproprietários querem extinguir o condomínio |
-| **Reivindicatória (REI)** | Recuperar posse do imóvel com base no domínio | Proprietário perdeu a posse para terceiro |
-| **Reintegração (RPO)** | Recuperar posse perdida por esbulho | Possuidor esbulhado busca restituição |
-
-> ⚠️ **Competência:** foro da situação do imóvel (art. 47, CPC).
-> ⚠️ **Prazo:** a ação de demarcação é imprescritível — o proprietário pode exigi-la a qualquer tempo (art. 1.297, CC).
-> ⚠️ **Perícia obrigatória:** a demarcação depende de vistoria e levantamento topográfico (art. 574, CPC).
-> ⚠️ **Duas fases:** (1ª) julgamento da demarcação; (2ª) execução — trabalho pericial e fixação dos marcos.
-
----
-
-## Checklist Pré-Redação
-
-- [ ] Localização e matrícula do imóvel do autor (CRI atualizado)?
-- [ ] Matrícula do imóvel confinante do réu?
-- [ ] Qual o fundamento do litígio: limites apagados, marcos removidos, invasão de faixa, documento divergente?
-- [ ] Há planta ou memorial descritivo divergente entre as partes?
-- [ ] Existe georreferenciamento (INCRA) do imóvel rural? (obrigatório para imóveis rurais)
-- [ ] Há ata notarial, boletim de ocorrência ou comunicação extrajudicial registrando a controvérsia?
-- [ ] O autor pretende apenas demarcar ou também cumular pedido de indenização por área esbulhada?
-- [ ] Há benfeitorias na área de sobreposição?
-- [ ] Parte autora é idosa? → tramitação prioritária
-- [ ] Gratuidade de justiça?
-
----
-
-## Estrutura Obrigatória da Peça
-
-### 1. CABEÇALHO
-
-```
-EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA [__] VARA CÍVEL
-DA COMARCA DE [COMARCA] — ESTADO DO [ESTADO]
-```
-
-### 2. QUALIFICAÇÃO E TIPO DE AÇÃO
-
-```
-[NOME COMPLETO DO AUTOR], [qualificação completa], proprietário(a) do imóvel
-descrito a seguir, por seu advogado constituído, vem, com fundamento nos
-arts. 569 e seguintes do Código de Processo Civil c/c arts. 1.297 e 1.298
-do Código Civil, propor a presente
-
-AÇÃO DE DEMARCAÇÃO DE TERRAS [C/C INDENIZAÇÃO POR ÁREA ESBULHADA]
-
-em face de [NOME DO RÉU], [qualificação completa], proprietário(a) do imóvel
-confinante descrito abaixo, pelos motivos de fato e direito a seguir expostos.
-```
-
----
-
-### 3. DOS FATOS
-
-```
-I — DOS IMÓVEIS E DA CONFINÂNCIA
-
-O(A) Autor(a) é o(a) legítimo(a) proprietário(a) do imóvel [rural/urbano]
-situado em [LOCALIZAÇÃO COMPLETA], com área de [ÁREA] [hectares/m²],
-inscrito sob a matrícula nº [NÚMERO] no Cartório de Registro de Imóveis de
-[COMARCA], conforme certidão de inteiro teor em anexo (DOC [XX]).
-
-O imóvel do(a) Autor(a) confronta, no [LADO: norte/sul/leste/oeste],
-com o imóvel do(a) Réu(é), [qualificação], inscrito sob a matrícula nº
-[NÚMERO] no mesmo CRI, conforme certidão em anexo (DOC [XX]).
-
-II — DA CONTROVÉRSIA SOBRE OS LIMITES
-
-Os limites entre os imóveis tornaram-se [incertos / apagados / contestados]
-em razão de [CAUSA: remoção de marcos divisórios / ausência de demarcação
-original / divergência entre plantas cadastrais / deterioração natural dos
-marcos / disputa sobre faixa de [ÁREA]].
-
-[Descrever com precisão os fatos: data em que surgiu a controvérsia, atos
-praticados pelo réu, tentativas de acordo, evidências da divergência.]
-
-Em [DATA], o(a) Autor(a) [notificou o(a) Réu(é) extrajudicialmente /
-constratou levantamento topográfico que revelou a divergência / identificou
-a remoção dos marcos], sem que fosse possível compor amigavelmente a questão.
-
-[Se houver invasão de área:]
-O(A) Réu(é) ocupa indevidamente uma faixa de [ÁREA] [m²/hectares] pertencente
-ao imóvel do(a) Autor(a), causando-lhe prejuízo material consistente em
-[perda de área produtiva / impossibilidade de construir / outros danos].
-
-III — DA NECESSIDADE DE DEMARCAÇÃO JUDICIAL
-
-Diante da impossibilidade de fixação amigável dos limites e da controvérsia
-sobre os marcos divisórios, a intervenção judicial é imprescindível para
-restabelecer os limites originários dos imóveis e assegurar ao(à) Autor(a)
-o pleno exercício do seu direito de propriedade.
-```
-
----
-
-### 4. DO DIREITO
-
-#### 4.1 Do Direito à Demarcação
-
-```
-O art. 1.297 do Código Civil assegura ao proprietário o direito de cercar,
-murar, valar ou tapar de qualquer modo o seu prédio, rural ou urbano, e
-pode constranger o seu confinante a proceder com ele à demarcação entre os
-dois prédios, a aviventar rumos apagados e a renovar marcos destruídos ou
-arruinados, repartindo-se proporcionalmente entre os interessados as
-respectivas despesas.
-
-A ação demarcatória, de rito especial (arts. 569–587, CPC), é o instrumento
-adequado para a fixação judicial dos limites entre imóveis, sendo imprescritível
-nos termos da jurisprudência consolidada do Superior Tribunal de Justiça.
-```
-
-#### 4.2 Do Procedimento e da Perícia
-
-```
-Nos termos do art. 574 do CPC, o juiz nomeará perito para proceder à vistoria
-e ao levantamento topográfico, com elaboração de planta e memorial descritivo
-que servirão de base para a sentença demarcatória.
-
-Requer-se, desde já, a nomeação de perito especializado em topografia e
-engenharia de agrimensura para realização da perícia demarcatória, com
-apresentação de: (i) planta planimétrica do imóvel do Autor; (ii) memorial
-descritivo das divisas; (iii) indicação precisa dos marcos a serem fixados
-ou restaurados; (iv) levantamento da área eventualmente invadida pelo Réu.
-```
-
-#### 4.3 Da Indenização por Área Esbulhada *(se cumulado)*
-
-```
-A ocupação indevida pelo(a) Réu(é) de faixa de [ÁREA] do imóvel do(a) Autor(a)
-configura esbulho possessório passível de indenização pelos frutos percebidos
-e deteriorações causadas (art. 1.216, CC), a serem apurados em liquidação de
-sentença após o trabalho pericial, observado o período de [DATA DO INÍCIO DA
-OCUPAÇÃO INDEVIDA] até a efetiva desocupação da área invadida.
-```
-
-#### 4.4 Das Despesas Periciais
-
-```
-As despesas com a demarcação serão repartidas proporcionalmente entre os
-confinantes, conforme determina o art. 1.297, §1º, do Código Civil, ressalvada
-a hipótese de o(a) Réu(é) ser o único responsável pela controvérsia, caso em
-que suportará integralmente os custos (art. 82, §2º, CPC).
-```
-
----
-
-### 5. DOS PEDIDOS
-
-```
-Ante o exposto, requer a Vossa Excelência:
-
-A. A citação do(a) Réu(é) para, querendo, contestar no prazo legal;
-
-B. A nomeação de perito especializado em topografia/agrimensura para realização
-   de vistoria, levantamento planimétrico e elaboração de planta e memorial
-   descritivo dos imóveis confinantes (art. 574, CPC);
-
-C. A procedência do pedido demarcatório, determinando-se:
-   (i)  a fixação e a descrição exata dos limites entre os imóveis das partes,
-        conforme laudo pericial;
-   (ii) a expedição de mandado para instalação ou restauração dos marcos
-        divisórios nos pontos indicados pelo perito;
-   (iii) a averbação da demarcação nas matrículas dos imóveis (matrícula nº [X]
-        e nº [Y]) no Cartório de Registro de Imóveis de [COMARCA];
-
-[Se cumulado indenização:]
-D. A condenação do(a) Réu(é) ao pagamento de indenização pela ocupação
-   indevida da faixa de área esbulhada, a ser apurada em liquidação de sentença
-   (frutos percebidos e deteriorações — art. 1.216, CC);
-
-E. A condenação do(a) Réu(é) ao pagamento das despesas periciais e custas
-   processuais e honorários advocatícios (art. 85, §2º, CPC);
-
-F. A gratuidade de justiça (art. 98, CPC) [se aplicável].
-
-Protesta provar o alegado por todos os meios de prova em Direito admitidos,
-especialmente documental, pericial e testemunhal.
-
-Dá-se à causa o valor de R$ [VALOR] ([por extenso]).
-
-[Cidade/UF], [data].
-
-Nestes termos, pede deferimento.
-
-[NOME DO ADVOGADO]
-OAB/[UF] nº [NÚMERO]
-```
-
----
-
-## Documentos que devem acompanhar a inicial
-
-- [ ] Certidão de inteiro teor (matrícula do imóvel do Autor — atualizada)
-- [ ] Certidão de inteiro teor (matrícula do imóvel do Réu — para identificação)
-- [ ] Planta ou croqui do imóvel (se disponível)
-- [ ] Memorial descritivo ou georreferenciamento (imóvel rural — INCRA)
-- [ ] Ata notarial / fotos / Boletim de Ocorrência (se houver)
-- [ ] Notificação extrajudicial ao Réu (se houver)
-- [ ] Procuração do advogado
-- [ ] Declaração de hipossuficiência (se gratuidade)
-
-## Checklist de Validação Final (DEM)
-
-- [ ] Imóvel do Autor e do Réu identificados com matrículas distintas?
-- [ ] Causa da controvérsia de limites descrita com precisão?
-- [ ] Pedido pericial formulado (topógrafo / agrimensor)?
-- [ ] Pedido de averbação nos registros imobiliários incluído?
-- [ ] Repartição das despesas periciais endereçada?
-- [ ] Cumulação com indenização justificada (se aplicável)?
-- [ ] Valor da causa em algarismos e por extenso?
-
-## Referências Legais Consolidadas — DEM
-
-| Dispositivo | Conteúdo |
-|-------------|----------|
-| Art. 1.297 | CC/2002 — Direito à demarcação e aviventação de rumos |
-| Art. 1.297, §§1º–3º | CC/2002 — Despesas e presunção de limites |
-| Art. 1.298 | CC/2002 — Presunção de pertinência das cercas intermediárias |
-| Arts. 569–587 | CPC/2015 — Procedimento especial de demarcação e divisão |
-| Art. 574 | CPC/2015 — Perícia topográfica obrigatória |
-| Art. 47 | CPC/2015 — Competência: foro da situação do imóvel |
-| Art. 85, §2º | CPC/2015 — Honorários advocatícios |
-| Art. 1.216 | CC/2002 — Indenização por frutos e deteriorações (possuidor de má-fé) |
-
----
 ### [ARQUIVO: replica_contestacao_civel.md]
 
 # Minuta: Réplica à Contestação — Cível Geral (REP-C)

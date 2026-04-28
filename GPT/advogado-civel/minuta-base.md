@@ -7,7 +7,7 @@ EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DO
 JUIZADO ESPECIAL CÍVEL DA COMARCA DE [COMARCA] — ESTADO DO [ESTADO]
 
 ---
-### [ARQUIVO: cabecalho_vara_civel.md]
+### [ARQUIVO: CabeCalho_vara_civel.md]
 
 EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA [VARA] VARA CÍVEL
 DA COMARCA DE [COMARCA] — ESTADO DO [ESTADO]
@@ -96,4 +96,5 @@ Nestes termos, pede deferimento.
 OAB/[UF] nº [NÚMERO]
 
 ---
+
 

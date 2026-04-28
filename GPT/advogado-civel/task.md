@@ -10,3 +10,4 @@ Com a mudanca de nome recente, toda referencia a `skill.md` deve ser lida como `
 - [ ] Refatorar `minutas-civeis.md` (remover pedidos comuns)
 - [ ] Validacao final: gerar uma peca mock para testar a montagem
 
+
