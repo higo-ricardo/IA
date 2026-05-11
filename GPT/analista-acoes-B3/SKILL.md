@@ -1,14 +1,12 @@
 ---
 name: equity-analyst-B3
 description: |
-  Executa análise técnica completa de ações brasileiras (B3) para swing trade no gráfico diário, estruturada em 5 seções obrigatórias: Tendência Atual, Suportes e Resistências, Ponto de Entrada, Stop Loss e Preço Alvo. Utiliza dados reais via yfinance + indicadores técnicos (médias móveis, IFR/RSI, MACD, Bandas de Bollinger, Fibonacci). Use esta skill SEMPRE que o usuário pedir para:
-  - analisar tecnicamente uma ação da B3 (ex: CMIG4, PETR4, VALE3, ITUB4)
-  - identificar suporte, resistência, entrada, stop loss ou alvo de uma ação
-  - fazer análise gráfica diária ou semanal de qualquer papel
-  - sugerir pontos de compra ou venda para swing trade ou position trade
-  - descrever a tendência atual de uma ação brasileira
-  - perguntas como "onde comprar CMIG4?", "qual o stop de VALE3?", "PETR4 está em alta?"
-  Use mesmo que o usuário não mencione "análise técnica" explicitamente.
+  Analisa ações brasileiras (B3) com análise técnica estruturada em 5 seções: Tendência, Suportes/Resistências, Ponto de Entrada, Stop Loss, Preço Alvo. Gera relatório com indicadores reais (MMs, RSI, MACD, Bandas, Fibonacci) e relação Risco/Retorno. Use quando o usuário:
+  - mencionar um ticker da B3 (ex: PETR4, VALE3, CMIG4, ITUB4)
+  - perguntar sobre entrada, stop, alvo, suporte, resistência ou tendência de uma ação
+  - pedir análise técnica ou gráfica (diária/swing trade)
+  Para múltiplos ativos, informe um por vez.
+  Não substitui recomendação de investimento.
 compatibility:
   python_libs: [yfinance, pandas, numpy, pandas_ta, matplotlib]
 ---
@@ -23,6 +21,21 @@ Produzir análise técnica estruturada em **5 seções obrigatórias**, com dado
 ## Fluxo de Execução
 
 ### 1. Coleta de Dados
+- Validar o ticker com regex: 
+    ```python
+    def validar_ticker(ticker):
+        try:
+            yf.Ticker(ticker).info
+            return True
+        except:
+            return False
+
+  if not validar_ticker(TICKER):
+    print(f"❌ Ticker {TICKER} inválido ou não encontrado na B3.")
+    print("Verifique o formato: ex: PETR4.SA, VALE3.SA, CMIG4.SA")
+    exit()
+    ```
+
 - Fonte: **Yahoo Finance via `yfinance`** — ticker no formato `XXXX4.SA`
 - Período mínimo: **2 anos** de dados diários (garante médias longas + Fibonacci confiável)
 - Colunas necessárias: `Open`, `High`, `Low`, `Close`, `Volume`
@@ -190,10 +203,29 @@ Justificar o nível escolhido tecnicamente.
 **5. Preço Alvo**
 Valor(es) em R$ com justificativa (ex: "resistência histórica em R$ X,XX").
 Calcular e informar a relação Risco/Retorno (R/R).
+
+**6. Padrões de Candles e Volume (Complemento)**
+- Verificar no último candle: {identificação de hammer, shooting star, engolfo, doji}
+- Volume do rompimento: {fator} × média
+- Divergência OBV: {sim/não + descrição}
+- Tendência semanal: {alta/baixa} → {consistente/inconsistente} com diário
 ```
 
 ---
+def encontrar_swing(df, lookback=120):
+    # Encontra o topo e fundo mais recentes com distância mínima de 20 candles
+    recente = df.tail(lookback)
+    topo_idx = recente['High'].idxmax()
+    fundo_idx = recente['Low'].idxmin()
+    if abs(recente.index.get_loc(topo_idx) - recente.index.get_loc(fundo_idx)) > 20:
+        return recente['High'].max(), recente['Low'].min()
+    else:
+        # fallback para janela maior
+        return df.tail(180)['High'].max(), df.tail(180)['Low'].min()
 
+  # Verificar a relação risco/retorno:
+ Risco/Retorno 1:{valor:.1f} ({'✅ Válido para operação' if rr >= 2 else '❌ Abaixo do mínimo recomendado (1:2)'})
+  
 ## Avisos Obrigatórios na Saída
 
 Incluir sempre ao final:
